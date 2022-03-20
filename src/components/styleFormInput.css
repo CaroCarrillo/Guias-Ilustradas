@@ -1,0 +1,28 @@
+.formInput{
+    display: flex;
+    flex-direction: column;
+    width: 280px;
+}
+input{
+    padding: 10px;
+    margin: 10px 0px;
+    border-radius: 5px;
+    border: 1px solid #0C345C;;
+}
+
+label{
+    font: 12px;
+    color: black;
+}
+
+span{
+    font-size: 12px;
+    padding: 3px;
+    color: #BE1600;
+    display: none;
+}
+
+/*para que las leyendas de error no se visualicen salvo si se seleccionan*/
+input:invalid[focused="true"] ~ span{
+    display: block;
+}

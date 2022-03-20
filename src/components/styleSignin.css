@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200&family=Poppins:wght@400;500;600&family=Roboto:wght@300;400;700&display=swap');
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: white;
+}
+
+img{
+    height: 100px;
+    margin: 10px 0px;
+}
+
+h1{
+    font-size: 1.5rem;
+    color: #0C345C;
+    margin: 40px 0px;
+}
+
+.headerForm {
+    text-align: center;
+    margin: 5px;
+}
+
+.divForm{
+    background-color: white;
+    margin: 70px auto;
+    width: 90px;
+    min-width: 700px;
+    padding: 1em 4em;
+    border-radius: 10px;
+    box-shadow: 10px 5px 25px -10px rgb( 0 0 0 / 30%);
+    
+}
+
+form{
+    
+    /*hace dos columnas*/
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    /*Falta hacer responsiva para dispositivos móviles
+    @media (max-width: 800px) {
+        grid-template-columns: 1fr;
+    }*/
+}
+
+.buttonForm{
+    margin: 30px;
+    text-align: center;
+}
+
+button {
+    width: 50%;
+    height: 45px;
+    border: none;
+    background-color: #0C345C;
+    color: white;
+    border-radius: 5px;
+    /*font-weight: bold;*/
+    font-size: 18px;
+    cursor: pointer;
+}
+
