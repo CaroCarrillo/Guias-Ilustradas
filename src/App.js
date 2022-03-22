@@ -1,12 +1,23 @@
 import './App.css';
-import FormRecoverPassword from './components/FormRecoverPassword';
+import Usuario from './components/Usuario';
 //import Signin from './components/Signin';
-//import Signin from './components/Signin.jsx';
+import Xa from './components/Xa.jsx';
+import { BrowserRouter as Router, Switch, Route, Routes } from 'react-router-dom';
 
 function App() {
   return (
     <div>
-        <FormRecoverPassword/>
+      <Router>
+        <Usuario/>
+        <Switch>
+    
+          <Route path='/'>
+          <Xa  />
+          </Route>
+                
+          </Switch>
+      </Router>
+        
     </div>
   );
 }
