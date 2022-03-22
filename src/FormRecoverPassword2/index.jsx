@@ -1,12 +1,13 @@
 import {useState} from 'react'
-import FormInput from './FormInput'
-import "./styleForms.css"
+import FormInput from '../FormInput'
+import "./index.css"
 
-const FormLogin = () => {
+const Login1 = () => {
 
 const [values,setValues] = useState({
 email:"", 
 password:"",
+confirmPassword:""
 });
 
 const inputs =[
@@ -28,6 +29,16 @@ const inputs =[
     label:"Contraseña",
     pattern: `^(?=.*[0-9])(?=.*[a-zA-Z])(?=.*[!@#$%^&*])[a-zA-Z0-9!@#$%^&*]{8,20}$`,
     required: true,
+    },
+    {
+    id:3,
+    name:"confirmPassword",
+    type:"password",
+    placeholder:"Confirmar contraseña",
+    errorMessage:"La contraseña no coincide",
+    label:"Confirmar contraseña",
+    pattern: values.password,
+    required: true,
     }
 ]
 
@@ -43,8 +54,7 @@ const onChange = (e) => {
     return (
         <div className='containerLogin'>
             <form>
-                <h2>Bienvenido al sistema de gestión de materias</h2>
-                <h1>Ingresa a tu cuenta</h1>
+                <h1>Recuperación de contraseña</h1>
                 {inputs.map((input) => (
                     <FormInput key={input.id} {...input} value={values[input.name]} onChange={onChange}/>
                 ))}
@@ -54,4 +64,4 @@ const onChange = (e) => {
     );
 };
 
-export default FormLogin;
+export default Login1;
