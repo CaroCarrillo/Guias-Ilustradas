@@ -1,0 +1,18 @@
+.dropDownOptions{
+    background-color: #0C345C;
+    color: white;
+    border: #0C345C;
+}
+
+.btn-check:active+.btn-secondary, .btn-check:checked+.btn-secondary, .btn-secondary.active, .btn-secondary:active, .show>.btn-secondary.dropdown-toggle {
+    color: #fff;
+    background-color: #0C345C;
+    border-color: #0C345C ;
+}
+
+.btn-check:focus+.btn-secondary, .btn-secondary:focus {
+    color: #fff;
+    background-color: #0C345C;
+    border-color: #0C345C ;
+}
+

@@ -1,13 +1,13 @@
 import './App.css';
-import Usuario from './Usuario';
-import ExampleForm from './ExampleForm';
+import {Curses} from './Curses';
+import {Usuario} from './Usuario'
 import { BrowserRouter as Router, Switch, Route, Routes } from 'react-router-dom';
+
 
 function App() {
   return (
     <div>
-            <ExampleForm/>
-         
+         <Usuario/>
     </div>
   );
 }

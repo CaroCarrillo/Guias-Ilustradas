@@ -87,4 +87,4 @@ const Usuario = () => {
     );
 };
 
-export default Usuario;
+export {Usuario};

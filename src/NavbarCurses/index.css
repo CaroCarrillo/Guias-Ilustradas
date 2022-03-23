@@ -1,0 +1,9 @@
+.NavbarCurses{
+    background-color: #0C345C !important;
+    color: white;
+    height: 80px;
+}
+img{
+    width:"50px";
+    border-radius: 50%;
+}
