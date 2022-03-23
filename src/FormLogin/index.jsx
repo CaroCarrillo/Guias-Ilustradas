@@ -1,16 +1,26 @@
 import {useState} from 'react'
-import FormInput from './FormInput'
-import "./styleForms.css"
+import FormInput from '../FormInput'
+import "./index.css"
 
-const FormRecoverPassword = () => {
+const FormLogin = () => {
 
 const [values,setValues] = useState({
+email:"", 
 password:"",
 });
 
 const inputs =[
     {
     id:1,
+    name:"email",
+    type:"email",
+    placeholder:"Correo institucional",
+    errorMessage:"Debe ser un email válido",
+    label:"Correo institucional",
+    required: true,
+    },
+    {
+    id:2,
     name:"password",
     type:"password",
     placeholder:"Contraseña",
@@ -33,7 +43,8 @@ const onChange = (e) => {
     return (
         <div className='containerLogin'>
             <form>
-                <h1>Recuperación de contraseña</h1>
+                <h2>Bienvenido al sistema de gestión de materias</h2>
+                <h1>Ingresa a tu cuenta</h1>
                 {inputs.map((input) => (
                     <FormInput key={input.id} {...input} value={values[input.name]} onChange={onChange}/>
                 ))}
@@ -43,4 +54,4 @@ const onChange = (e) => {
     );
 };
 
-export default FormRecoverPassword;
+export default FormLogin;

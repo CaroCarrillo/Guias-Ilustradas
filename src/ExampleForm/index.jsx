@@ -1,6 +1,6 @@
 import {useState} from 'react'
-import FormInput from './FormInput'
-import "./styleForms.css"
+import FormInput from '../FormInput/index.jsx'
+import "./index.css"
 import cuceiBlack from '../assets/images/cuceiBlack.png'
 import udg from '../assets/images/udg.png'
 
