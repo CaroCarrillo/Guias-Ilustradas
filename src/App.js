@@ -1,21 +1,19 @@
 import './App.css';
-import Usuario from './components/Usuario';
-//import Signin from './components/Signin';
-import Xa from './components/Xa.jsx';
-import { BrowserRouter as Router, Switch, Route, Routes } from 'react-router-dom';
+import Usuario from './components/Usuario/Usuario';
+import FormSignin from './components/FormSignin';
+import FormRecoverPassword from './components/FormRecoverPassword';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 function App() {
   return (
     <div>
       <Router>
         <Usuario/>
-        <Switch>
-    
-          <Route path='/'>
-          <Xa  />
-          </Route>
-                
-          </Switch>
+        <Routes>
+          <Route path='/manual' element={<FormSignin/>} exact />
+          <Route path='/planeacion' element={<FormRecoverPassword/>} exact />
+
+        </Routes>
       </Router>
         
     </div>
