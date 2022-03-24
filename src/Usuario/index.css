@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200&family=Poppins:wght@400;500;600&family=Roboto:wght@300;400;700&display=swap');
+
+body{
+    font-family: 'Roboto', sans-serif;  
+
+}
+
+#menuLateral{
+    background-color: #0C345C;
+    color: white;
+}
+
+a, .btn, .dropdown-menu, .dropdown-item:active{
+    text-decoration: none;
+    color: white;
+    text-align: left;
+    border: none;
+    background-color: #0C345C;
+    padding-left: 0px;
+}
+
+.dropdown-item, .dropdown-item:active{
+    padding-left: 50px !important;
+}
+
+a:hover, .btn:hover, .dropdown-item:focus, .dropdown-item:hover   {
+    color: grey;
+    background-color: #0C345C;
+    
+}
+
+.btn:focus{
+    box-shadow: none;
+}
