@@ -1,8 +1,8 @@
 import './App.css';
-import Usuario from './components/Usuario/Usuario';
-import FormSignin from './components/FormSignin';
-import FormRecoverPassword from './components/FormRecoverPassword';
+import Usuario from './Usuario';
+import ErrorPage404 from './ErrorPage404';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import EditInformation from './EditInformation';
 
 function App() {
   return (
@@ -10,8 +10,8 @@ function App() {
       <Router>
         <Usuario/>
         <Routes>
-          <Route path='/manual' element={<FormSignin/>} exact />
-          <Route path='/planeacion' element={<FormRecoverPassword/>} exact />
+          <Route path='/Manual' element={<ErrorPage404/>} exact />
+          <Route path='/Cursos' element={<EditInformation/>} exact />
 
         </Routes>
       </Router>
