@@ -101,18 +101,18 @@ const EditInformation = () => {
             setValues({...values,[e.target.name]: e.target.value });
         };
         
+        
             
             return (
-                <div className='divForm'>
-                    <div className='headerForm'>
+                <div id='editProfile'>
+                    
+                    <div  id='alignCenter'>
                         <h1>Editar Perfil de Profesor</h1>
-                    </div> 
-                    <form>
-                        {inputs.map((input) => (
-                            <FormInput key={input.id} {...input} value={values[input.name]} onChange={onChange}/>
-                        ))}
-                    </form>
-                    <div className='buttonForm'>
+                        <form>
+                            {inputs.map((input) => (
+                                <FormInput key={input.id} {...input} value={values[input.name]} onChange={onChange}/>
+                            ))}
+                        </form>
                         <button onClick={handleSubmit}>Guardar</button>
                     </div>
                 </div>

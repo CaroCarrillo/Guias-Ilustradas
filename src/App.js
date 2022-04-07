@@ -1,8 +1,9 @@
 import './App.css';
 import Usuario from './Usuario';
-import ErrorPage404 from './ErrorPage404';
+//import FormRecoverPassword from './FormRecoverPassword';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import EditInformation from './EditInformation';
+import ErrorPage404 from './ErrorPage404';
 
 function App() {
   return (
