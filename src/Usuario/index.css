@@ -5,13 +5,19 @@ body{
 
 }
 
+/*estilo de la barra lateral*/
+
+/*img{
+    height: 100px;
+}*/
+
 #menuLateral{
     background-color: #0C345C;
     color: white;
 }
 
-a, .btn, .dropdown-menu, .dropdown-item:active{
-    text-decoration: none;
+#menuLateral a,  #menuLateral .btn, #menuLateral .dropdown-menu, #menuLateral .dropdown-item:active{
+    text-decoration: none !important;
     color: white;
     text-align: left;
     border: none;
@@ -19,16 +25,16 @@ a, .btn, .dropdown-menu, .dropdown-item:active{
     padding-left: 0px;
 }
 
-.dropdown-item, .dropdown-item:active{
+#menuLateral .dropdown-item, #menuLateral .dropdown-item:active{
     padding-left: 50px !important;
 }
 
-a:hover, .btn:hover, .dropdown-item:focus, .dropdown-item:hover   {
+#menuLateral a:hover, #menuLateral .btn:hover, #menuLateral .dropdown-item:focus, #menuLateral .dropdown-item:hover   {
     color: grey;
     background-color: #0C345C;
     
 }
 
-.btn:focus{
+#menuLateral .btn:focus{
     box-shadow: none;
 }

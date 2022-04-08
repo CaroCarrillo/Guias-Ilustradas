@@ -3,6 +3,7 @@ import { BiHelpCircle } from "react-icons/bi";
 import { RiFileList2Line } from "react-icons/ri";
 import { HiOutlineDocumentDuplicate } from "react-icons/hi";
 import { Link } from 'react-router-dom';
+import NavbarCaro from "../NavbarCaro";
 import './index.css'
 
 
@@ -11,6 +12,8 @@ const Usuario = () => {
     
     return (
         <div>
+            <NavbarCaro/>
+
             {/*botón que abre la barra lateral */}
             <button 
                 className="btn btn-primary" 
@@ -29,7 +32,7 @@ const Usuario = () => {
                     <h5 className="offcanvas-title">Cucei</h5>
                     {/*Botón de cierre de menú lateral*/}
                     <button
-                        type="button" className="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close">
+                        type="button" className="btn-close text-reset " data-bs-dismiss="offcanvas" aria-label="Close">
                     </button>
                 </div>
                 <div className="offcanvas-body d-block justify-content-center vh-100 my-5" >
@@ -42,10 +45,10 @@ const Usuario = () => {
                     </div>
                     <div className="" >
                         {/*Botón Link Manual*/}
-                        <Link to="/Manual" tabindex="-1" role="button" aria-disabled="true"><RiFileList2Line/> Manual</Link>
+                        <Link to="/Manual" tabindex="-1" role="button" aria-disabled="true"><BiHelpCircle/> Manual</Link>
                         {/*Dropdown de planeación*/}
                         <div className="dropdown">
-                            <button className="btn dropdown-toggle" type="button" id="dropdownPlaneacion" data-bs-toggle="dropdown" data-bs-auto-close="false" aria-expanded="false"><BiHelpCircle /> Planeación
+                            <button className="btn dropdown-toggle" type="button" id="dropdownPlaneacion" data-bs-toggle="dropdown" data-bs-auto-close="false" aria-expanded="false"><RiFileList2Line /> Planeación
                             </button>
                             <ul className="dropdown-menu" aria-labelledby="dropdownPlaneacion">
                                 <li className="dropdown-item" ><Link to="/Cursos"> <HiOutlineDocumentDuplicate />  Mis cursos</Link></li>

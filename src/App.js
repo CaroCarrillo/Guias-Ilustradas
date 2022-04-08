@@ -1,4 +1,6 @@
+
 import {Curses} from './Curses'
+
 function App() {
   return (
     <div>

@@ -1,55 +1,59 @@
 @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200&family=Poppins:wght@400;500;600&family=Roboto:wght@300;400;700&display=swap');
 
-body{
-    font-family: 'Roboto', sans-serif;
-    background-color: white;
-}
 
-img{
-    height: 100px;
-    margin: 10px 0px;
-}
+/*Estilo del form editar perfil*/
 
-h1{
+
+#editProfile h1{
     font-size: 1.5rem;
     color: #0C345C;
-    margin: 40px 0px;
 }
 
-.headerForm {
+#editProfile #alignCenter {
     text-align: center;
-    margin: 5px;
-}
-
-.divForm{
-    background-color: white;
-    margin: 70px auto;
-    width: 90px;
-    min-width: 700px;
-    padding: 1em 4em;
-    border-radius: 10px;
     box-shadow: 10px 5px 25px -10px rgb( 0 0 0 / 30%);
+    border-radius: 10px;
+    padding: 50px;
+    }
+
+/*Estilo del form*/
+#editProfile{
+    display: flex;
+    justify-content: center;
+    /*height: 100vh;*/
     
 }
+/*
+para localizar en el centro todos los elementos
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}*/
 
-form{
-    
+#editProfile form{
     /*hace dos columnas*/
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 20px;
-    /*Falta hacer responsiva para dispositivos móviles
-    @media (max-width: 800px) {
-        grid-template-columns: 1fr;
-    }*/
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: none;
+    text-align: left;
+    width: inherit;
+    padding: 20px 0px;
 }
 
-.buttonForm{
-    margin: 30px;
-    text-align: center;
-}
 
-button {
+/*Página para hacer responsiva para dispositivos móviles*/
+@media screen and (max-width: 800px) {
+    #editProfile form{
+            grid-template-columns: 1fr;
+            padding: 0px 60px;}
+    }
+
+
+    #editProfile button {
     width: 50%;
     height: 45px;
     border: none;
