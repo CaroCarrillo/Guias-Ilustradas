@@ -1,0 +1,14 @@
+#search-nav-bar{
+    background-color: rgba(12, 52, 92, .7);
+    height: 7rem;
+
+}
+
+#search-nav-bar a{
+    color: white;
+    text-decoration: none;
+}
+
+#search-nav-bar .col{
+    border: solid white;
+}
