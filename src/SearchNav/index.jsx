@@ -11,19 +11,20 @@ import { HiOutlineDocumentDuplicate } from "react-icons/hi";
 function SearchNav() {
   return (
       
-    <nav class="navbar" style={{backgroundColor: "#0C345C"}}>
-    <div class="container-fluid">
-        <div className='d-flex justify-content-start'>
-            <a href="/#" aria-labelledby='Home'></a> &nbsp; &nbsp; &nbsp;
-            <a aria-current="page" href="/#" >Planeación </a>&nbsp; &nbsp;
-            <Link to="/Cursos"> &nbsp; &nbsp; Datos profesionales</Link>
+    <div id='search-nav-bar'>
+      <div className='container-fluid pt-4'>
+        <div className='row'>
+          <div className='col'>
+          &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;Planeación &nbsp; &nbsp;> &nbsp; &nbsp; Mis cursos
+          </div>
+          <div className='col'>
+            <input className='search-materia-info' type="text" placeholder='Buscar Materia'/>
+          </div>
+
         </div>
-        <form class="d-flex">
-            <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search"/>
-            <button class="btn btn-outline-success" type="submit">Search</button>
-        </form>
+      </div>
+
     </div>
-</nav>
   )
   
 }

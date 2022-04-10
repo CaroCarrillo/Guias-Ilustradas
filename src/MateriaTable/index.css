@@ -1,0 +1,19 @@
+.header-table{
+    background-color: #0C345C;
+    border-radius: .3rem;
+    height: 2rem;
+}
+
+.header-table {
+    color: white;
+}
+
+
+#materia-table{
+    position: relative;
+    bottom: .7rem;
+}
+
+.content-table{
+    border-bottom: solid gray .13rem;
+}
