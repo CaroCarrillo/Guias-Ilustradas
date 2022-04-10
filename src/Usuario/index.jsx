@@ -3,7 +3,8 @@ import { BiHelpCircle } from "react-icons/bi";
 import { RiFileList2Line } from "react-icons/ri";
 import { HiOutlineDocumentDuplicate } from "react-icons/hi";
 import { Link } from 'react-router-dom';
-import NavbarCaro from "../NavbarCaro";
+import {NavbarCaro} from "../NavbarCaro";
+import {Navbar} from "../Navbar";
 import './index.css'
 
 
@@ -12,6 +13,7 @@ const Usuario = () => {
     
     return (
         <div>
+            <Navbar />
             <NavbarCaro/>
 
             {/*botón que abre la barra lateral */}
@@ -43,7 +45,7 @@ const Usuario = () => {
                             className="rounded-circle" 
                             alt="Imagen profesor" />
                     </div>
-                    <div className="" >
+                    <div className="my-5" >
                         {/*Botón Link Manual*/}
                         <Link to="/Manual" tabindex="-1" role="button" aria-disabled="true"><BiHelpCircle/> Manual</Link>
                         {/*Dropdown de planeación*/}

@@ -1,7 +1,10 @@
 
-a, a:hover{
+#navbarPlaneacion a, #navbarPlaneacion a:hover{
     text-decoration: none !important;
+    
+}
+
+#navbarPlaneacion h1{
     color: white;
-    background-color: #0C345C;
     font-size: 20px;
 }

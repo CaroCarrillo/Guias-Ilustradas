@@ -11,9 +11,9 @@
 
 #editProfile #alignCenter {
     text-align: center;
-    box-shadow: 10px 5px 25px -10px rgb( 0 0 0 / 30%);
+    /*box-shadow: 10px 5px 25px -10px rgb( 0 0 0 / 30%);
     border-radius: 10px;
-    padding: 50px;
+    padding: 50px;*/
     }
 
 /*Estilo del form*/
@@ -23,14 +23,6 @@
     /*height: 100vh;*/
     
 }
-/*
-para localizar en el centro todos los elementos
-body{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-}*/
 
 #editProfile form{
     /*hace dos columnas*/
@@ -42,6 +34,10 @@ body{
     text-align: left;
     width: inherit;
     padding: 20px 0px;
+}
+
+#updateImageProfile{
+    border: none;
 }
 
 
@@ -64,3 +60,13 @@ body{
     font-size: 18px;
     cursor: pointer;
 }
+
+
+/*
+para localizar en el centro todos los elementos
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}*/
