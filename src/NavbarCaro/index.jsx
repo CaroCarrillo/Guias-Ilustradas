@@ -29,4 +29,4 @@ const NavbarCaro = () => {
     );
 };
 
-export default NavbarCaro;
+export {NavbarCaro};

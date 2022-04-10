@@ -1,0 +1,26 @@
+.nav-bar{
+    background-color: #0C345C;
+    height: 50px;
+}
+.nav-bar_list{
+    text-decoration: none;
+    color: white;
+    list-style: none;
+}
+.nav-bar_list li img{
+    height: 2rem;
+    border-radius: 20px;
+}
+.nav-bar_list li button{
+    background-color: #0C345C;;
+    color: white
+    
+}
+
+.nav-bar_list .btn:focus{
+    box-shadow: none;
+}
+.nav-bar_list li .btn:hover{
+    color: white
+    
+}

@@ -1,19 +1,17 @@
 import React from 'react'
+import { Navbar } from '../Navbar'
+import {SearchNav} from '../SearchNav'
+import {MateriaTable} from '../MateriaTable'
 import udg from '../assets/images/udg.png'
 
-export default function Curses() {
+import './index.css'
+function Curses() {
   return (
-    <div >
-          <nav class="navbar navbar-light bg-light">
-              <div class="container-fluid">
-                  <a class="navbar-brand" href="#">
-                    <img src={udg} alt="Logo" />;
-                          Bootstrap
-                  </a>
-              </div>
-          </nav>
+    <div>
+      <Navbar/> 
+      <SearchNav/>
+      <MateriaTable/>
     </div>
-  )
-}
+  )};
 
-
+  export {Curses}
