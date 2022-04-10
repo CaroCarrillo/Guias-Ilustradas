@@ -13,6 +13,10 @@ const EditInformation = () => {
         emailP:"",
         username:"", 
         comentarios:"",
+        updateImageProfile:"",
+        acceptPublicationData:""
+
+
         });
         
         const inputs =[
@@ -31,7 +35,7 @@ const EditInformation = () => {
             name:"phone",
             type:"text",
             placeholder:"Teléfono",
-            errorMessage:"El código debe ser de 10 números",
+            errorMessage:"El teléfono debe ser de 10 números",
             label:"Teléfono",
             pattern: "^[0-10]{10}$",
             required: true,
@@ -89,6 +93,21 @@ const EditInformation = () => {
             label:"Comentarios",
             pattern: "^[A-Za-z0-9]{0,200}$",
             required: true,
+            },
+            {
+            id:9,
+            name:"updateImageProfile",
+            type:"file",
+            label:"Actualizar foto de perfil",
+            style:{border: "none"},
+            required: false,
+            },
+            {
+            id:10,
+            name:"acceptPublicationData",
+            type:"radio",
+            label:"Autorizar la publicación de mis datos de contacto",
+            required: true,
             }
         ]
         
@@ -112,7 +131,8 @@ const EditInformation = () => {
                             {inputs.map((input) => (
                                 <FormInput key={input.id} {...input} value={values[input.name]} onChange={onChange}/>
                             ))}
-                        </form>
+                            
+                    </form>
                         <button onClick={handleSubmit}>Guardar</button>
                     </div>
                 </div>
