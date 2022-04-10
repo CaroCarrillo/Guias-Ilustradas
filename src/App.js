@@ -1,10 +1,9 @@
 
-import {Curses} from './Curses'
-
+import {MateriaInfo} from './MateriaInfo'
 function App() {
   return (
     <div>
-      <Curses/>
+      <MateriaInfo/>
       {/* <Router>
         <Usuario/>
         <Routes>
