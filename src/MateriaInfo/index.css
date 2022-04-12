@@ -1,0 +1,25 @@
+.header-table-info{
+    background-color: #0C345C;
+    border-radius: .3rem;
+    height: 2rem;
+}
+
+.header-table-info {
+    color: white;
+}
+
+
+#materia-info{
+    position: relative;
+    bottom: .7rem;
+}
+
+.content-table-info{
+    margin-top: 1rem;
+}
+.button-cronograma{
+    background-color: #0C345C;
+    color: white;
+    border-radius: .3rem;
+    margin-top: 1rem;
+}

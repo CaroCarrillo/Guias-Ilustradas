@@ -1,9 +1,9 @@
 import {useState} from 'react'
-import FormInput from './FormInput'
+import FormInput from '../FormInput'
 //import "./login2.css"
 import cuceiBlack from '../assets/images/cuceiBlack.png'
 import udg from '../assets/images/udg.png'
-import './signin.css'
+import './index.css'
 
 const FormSignin = () => {
 
