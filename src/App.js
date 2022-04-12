@@ -1,12 +1,14 @@
 import './App.css';
-import FormRecoverPassword from './components/FormRecoverPassword';
-//import Signin from './components/Signin';
+import FormDeskop from './components/FormDeskop';
+//import FormDeskop from './components/FormDeskop';
+//import FormRecoverPassword from './components/FormRecoverPassword';
+//import FormSignin from './components/FormSignin';
 //import Signin from './components/Signin.jsx';
 
 function App() {
   return (
     <div>
-        <FormRecoverPassword/>
+        <FormDeskop/>
     </div>
   );
 }
