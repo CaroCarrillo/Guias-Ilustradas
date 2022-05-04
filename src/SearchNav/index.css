@@ -8,7 +8,7 @@
     color: white;
     text-decoration: none;
 }
-.search-materia-info{
+#search-nav-bar .search-materia-info{
     border-radius: .4rem;
     margin-left: 18rem;
 }

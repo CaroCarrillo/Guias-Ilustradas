@@ -4,12 +4,12 @@ body{
     font-family: 'Roboto', sans-serif;  
 }
 
-.containerLogin {
+.containerRecoverPassword2 {
     display: flex;
     min-height: 100vh;
 }
 
-h1{
+.containerRecoverPassword2 h1{
     font-size: 1.5rem;
     font-weight: bold;
     color: #0C345C;
@@ -17,58 +17,45 @@ h1{
     text-align:center;
 }
 
-h2{
-    font-size: 1rem;
-    margin-bottom: .5rem;
-    color: #0C345C;
-    text-align:center;
-}
 
-h3{
-    font-size: 1rem;
-    font-weight: bold;
-    color: #000;
-    margin: 15px 5px;
-    text-align:center;
-
-}
-
-h4{
-    font-size: 1rem;
-    font-weight: normal;
-    color: #000;
-    margin: 5px 0px;
-    text-align:center;
-
-}
-
-
-form{
+.containerRecoverPassword2 form{
     background-color: white;
     margin: auto;
     width: 90px;
-    min-width: 400px;
+    min-width: 490px;
     padding: 4.5em 3em;
     border-radius: 10px;
     box-shadow: 0 5px 10px -5px rgb( 0 0 0 / 30%);
     
 }
 
-form2{
-    background-color: #0C345C;
-    margin: auto;
-    width: 90px;
-    min-width: 100%;
-    padding: 4.5em 3em;
-    
-}
 
-.buttonForm{
+/****************************************/
+/*Este link(a) es meramente demostrativo, hasta que el back-end esté listo, por lo que se comenta el botón que sí manda el json(o datos en un objeto) para procesar en la base de datos*/
+.containerRecoverPassword2 a {
+    width: 84%;
+    height: 45px;
+    text-align: center;
+    margin-left: 35px;
+    margin-top: 20px;
+    background-color: #0C345C; 
+    color: white;
+    border-radius: 5px;
+    font-size: 18px;
+    padding: 8px 0px;
+}
+.containerRecoverPassword2 a:hover {
+    text-decoration: none;
+}
+/****************************************/
+
+
+/* 
+.containerRecoverPassword2 .buttonForm{
     margin: 30px;
     text-align: center;
 }
-
-button {
+.containerRecoverPassword2 button {
     width: 92%;
     height: 45px;
     border: none;
@@ -79,20 +66,11 @@ button {
     cursor: pointer;
     margin-top: 30px;
     margin: center;
-}
+}*/
 
-button1 {
-    background-color: #0c345c2d; 
-    border: none;
-    color: white;
-    padding: 10px 15px;
-    border-radius: 80px;
-    font-size: 20px;
-    cursor: pointer;
-    box-shadow: 0 6px 6px 0 rgba(0,0,0,0.2);
-}
 
-img {
+
+.containerRecoverPassword2 img {
     margin: 30px;
     border-radius: 20%;
     display: block;

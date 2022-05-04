@@ -1,24 +1,24 @@
 .formInput{
     display: flex;
     flex-direction: column;
-    width: 500px;
+    width: 400px;
     padding: 0px 30px;
 }
 
-input{
+.formInput input{
     padding: 15px;
     margin: 15px 5px;
     border-radius: 5px;
     border: 1px solid rgba(111, 113, 116, 0.7);;
 }
 
-label{
+.formInput label{
     font: 12px;
     color: black;
 }
 
 /*Mensajes de error*/
-span{
+.formInput span{
     font-size: 15px;
     padding: 3px;
     color: #be16007e;
@@ -26,6 +26,6 @@ span{
 }
 
 /*para que las leyendas de error no se visualicen salvo si se seleccionan*/
-input:invalid[focused="true"] ~ span{
+.formInput input:invalid[focused="true"] ~ span{
     display: block;
 }
