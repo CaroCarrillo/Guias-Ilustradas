@@ -4,6 +4,8 @@ import Usuario from './Usuario';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import EditInformation from './EditInformation';
 import ErrorPage404 from './ErrorPage404';
+import { Cronograma } from './Cronograma'
+import { Unidad } from './Unidad';
 
 
 import PrincipalPageCucei from './PrincipalPageCucei';
@@ -11,7 +13,9 @@ import PrincipalPageCucei from './PrincipalPageCucei';
 function App() {
   return (
     <div>
-      <PrincipalPageCucei/>
+      <Unidad/>
+
+      {/* <PrincipalPageCucei/>
       <Router>
         <Usuario/>
         <Routes>
@@ -21,7 +25,7 @@ function App() {
 
 
         </Routes>
-      </Router>
+      </Router> */}
             
     </div>
   );
