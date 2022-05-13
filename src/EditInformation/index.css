@@ -40,6 +40,30 @@
     border: none;
 }
 
+/****************************************/
+/*Este link(a) es meramente demostrativo, hasta que el back-end esté listo, por lo que se comenta el botón que sí manda el json(o datos en un objeto) para procesar en la base de datos*/
+#editProfile .datosProfesor {
+    width: 80%;
+    height: 45px;
+    text-align: center;
+    margin-left: 40px;
+    margin-top: 5px;
+    background-color: #0C345C !important; 
+    color: white;
+    border-radius: 5px;
+    font-size: 18px;
+    padding: 8px 0px;
+}
+#editProfile a:hover {
+    text-decoration: none;
+}
+/****************************************/
+
+
+
+
+
+
 
 /*Página para hacer responsiva para dispositivos móviles*/
 @media screen and (max-width: 800px) {

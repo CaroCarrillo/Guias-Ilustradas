@@ -5,34 +5,34 @@ body{
     background-color: white;
 }
 
-img{
+.containerSignin img{
     height: 100px;
     margin: 10px 0px;
 }
 
-h1{
+.containerSignin h1{
     font-size: 1.5rem;
     color: #0C345C;
     margin: 40px 0px;
 }
 
-.headerForm {
+.containerSignin .headerForm {
     text-align: center;
     margin: 5px;
 }
 
-.divForm{
+.containerSignin{
     background-color: white;
     margin: 70px auto;
     width: 90px;
-    min-width: 700px;
+    min-width: 940px;
     padding: 1em 4em;
     border-radius: 10px;
     box-shadow: 10px 5px 25px -10px rgb( 0 0 0 / 30%);
     
 }
 
-form{
+.containerSignin form{
     
     /*hace dos columnas*/
     display: grid;
@@ -44,12 +44,34 @@ form{
     }*/
 }
 
-.buttonForm{
+
+/****************************************/
+/*Este link(a) es meramente demostrativo, hasta que el back-end esté listo, por lo que se comenta el botón que sí manda el json(o datos en un objeto) para procesar en la base de datos*/
+.containerSignin a {
+    width: 84%;
+    height: 45px;
+    text-align: center;
+    margin-left: 35px;
+    margin-top: 20px;
+    background-color: #0C345C; 
+    color: white;
+    border-radius: 5px;
+    font-size: 18px;
+    padding: 8px 0px;
+}
+.containerSignin a:hover {
+    text-decoration: none;
+}
+
+/****************************************/
+
+
+.containerSignin .buttonForm{
     margin: 30px;
     text-align: center;
 }
 
-button {
+.containerSignin button {
     width: 50%;
     height: 45px;
     border: none;

@@ -133,7 +133,14 @@ const EditInformation = () => {
                             ))}
                             
                     </form>
-                        <button onClick={handleSubmit}>Guardar</button>
+                        {/***********************************
+                        <button onClick={handleSubmit} >Enviar</button>
+                        *************************************
+                        //*Este botón se utilizará una vez que el back-end esté listo para conectarse al front-end, por mientras como demostración se va a linquear el siguiente enlace (a) */}
+                        
+                        {/*este es el link debe cambiarse por el botón*****************************/}
+                        <a href="/Usuario" data-toggle="InformacionProfesor" type='button' className='datosProfesor'>Guardar</a>
+                        {/*******************************************************************/}
                     </div>
                 </div>
             );

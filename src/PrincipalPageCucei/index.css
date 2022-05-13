@@ -2,11 +2,14 @@
   .btn-inicial {
     background-color: #0C345C;
     color: white;
+    text-decoration: none;
   }
   
   .btn-inicial:hover {
     background-color: #0C345C;
     color: white;
+    text-decoration: none;
+
   }
   
   #header img {

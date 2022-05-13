@@ -25,13 +25,13 @@ const PrincipalPageCucei = () => {
                 <div class="overlay">
                     <div class="container">
                         <div class="row align-items-center">
-                            <div class="col-md-6 offset-md-6 text-center text-md-right">
+                            <div class="col-md-6 offset-md-3 text-center text-md-center">
                                 <h1>Planeación Didáctica CUCEI</h1>
                                 <p class="d-none d-md-block">
-                                    Esperamos que esta plataforma sea de gran ayuda en la organización en el material de los profesores y aprendizaje de los alumnos.
+                                    Sistema de Gestión de Aprendizaje entre profesores y alumnos.
                                 </p>
-                                <a href="/usuario" class="btn btn-outline-light" data-toggle="modal">Ver Manual de Ayuda</a>
-                                <button type="button" class="btn btn-inicial" data-toggle="modal" data-target="#modalCompra">Ver Planeación</button>
+                                <a href="/Manual" class="btn btn-outline-light" data-toggle="manual" style={{textDecoration:"none"}}>Ver Manual de Ayuda</a>
+                                <a href="/Ingresar" class="btn btn-inicial"  data-toggle="planeacion">Ver Planeación</a>
                             </div>
                         </div>
                     </div>

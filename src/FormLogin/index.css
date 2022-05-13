@@ -9,37 +9,74 @@ body{
     min-height: 100vh;
 }
 
-h1{
+.containerLogin h1{
     font-size: 1.5rem;
     font-weight: bold;
     color: #0C345C;
     margin: 20px 0px;
 }
 
-h2{
-    font-size: 1rem;
+.containerLogin h2{
+    font-size: 1.2rem;
     margin-bottom: .5rem;
     color: #0C345C;
 }
 
-form{
+.containerLogin form{
     background-color: white;
     margin: auto;
     width: 90px;
-    min-width: 400px;
+    min-width: 500px;
     padding: 4.5em 3em;
     border-radius: 10px;
     box-shadow: 0 5px 10px -5px rgb( 0 0 0 / 30%);
     
 }
 
-.buttonForm{
+.containerLogin .buttonForm{
     margin: 30px;
     text-align: center;
 }
 
-button {
-    width: 92%;
+.containerLogin .enlace{
+    font-size: 1rem;
+    color: #0C345C;
+    display: block;
+    text-align: center;
+    text-decoration: none !important;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.containerLogin a:hover{
+    text-decoration: none !important;
+}
+
+
+/****************************************/
+/*Este link(a) es meramente demostrativo, hasta que el back-end esté listo, por lo que se comenta el botón que sí manda el json(o datos en un objeto) para procesar en la base de datos*/
+.containerLogin .enlacePerfil {
+    width: 80%;
+    height: 45px;
+    text-align: center;
+    margin-left: 40px;
+    margin-top: 5px;
+    background-color: #0C345C !important; 
+    color: white;
+    border-radius: 5px;
+    font-size: 18px;
+    padding: 8px 0px;
+}
+.containerLogin a:hover {
+    text-decoration: none;
+}
+/****************************************/
+
+
+
+
+.containerLogin button {
+    width: 80%;
     height: 45px;
     border: none;
     background-color: #0C345C;
@@ -47,5 +84,5 @@ button {
     border-radius: 5px;
     font-size: 18px;
     cursor: pointer;
-    margin-top: 30px;
+    margin-left: 40px;
 }

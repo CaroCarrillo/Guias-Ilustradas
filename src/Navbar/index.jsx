@@ -13,11 +13,11 @@ function Navbar() {
           <li>
             <div >
               <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-                Maria 
+                Josefa Carrillo 
               </button>
               <ul class="dropdown-menu " aria-labelledby="dropdownMenuButton1">
-                <li><a class="dropdown-item" href="#">Perfil</a></li>
-                <li><a class="dropdown-item" href="#">Cerrar session</a></li>
+                {/*<li><a class="dropdown-item" href="#">Perfil</a></li>*/}
+                <li><a class="dropdown-item" href="/#">Cerrar sesión</a></li>
               </ul>
             </div>
           </li>
