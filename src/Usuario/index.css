@@ -38,3 +38,108 @@ body{
 #menuLateral .btn:focus{
     box-shadow: none;
 }
+
+
+
+/***********************************< Información de form central >*******************************************/
+
+.containerInformation {
+    display: flex;
+    min-height: 100vh;
+}
+
+.containerInformation h1{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #0C345C;
+    margin: 20px 0px;
+    text-align:center;
+}
+
+.containerInformation h2{
+    font-size: 1rem;
+    margin-bottom: .5rem;
+    color: #0C345C;
+    text-align:center;
+}
+
+.containerInformation h3{
+    font-size: 1rem;
+    font-weight: bold;
+    color: #000;
+    margin: 15px 5px;
+    text-align:center;
+
+}
+
+.containerInformation h4{
+    font-size: 1rem;
+    font-weight: normal;
+    color: #000;
+    margin: 5px 0px;
+    text-align:center;
+
+}
+
+
+.containerInformation form{
+    background-color: white;
+    margin: auto;
+    width: 90px;
+    min-width: 600px;
+    padding: 1em 3em;
+    border: none;
+    
+}
+
+
+/****************************************/
+/*Este link(a) es meramente demostrativo, hasta que el back-end esté listo, por lo que se comenta el botón que sí manda el json(o datos en un objeto) para procesar en la base de datos*/
+.containerInformation a {
+    width: 80%;
+    height: 45px;
+    text-align: center;
+    margin-left: 40px;
+    margin-top: 20px;
+    background-color: #0C345C !important; 
+    color: white;
+    border-radius: 5px;
+    font-size: 18px;
+    padding: 8px 0px;
+}
+.containerInformation a:hover {
+    text-decoration: none;
+}
+/****************************************/
+
+
+.containerInformation .buttonForm{
+    margin: 30px;
+    text-align: center;
+}
+
+.containerInformation button {
+    width: 92%;
+    height: 45px;
+    border: none;
+    background-color: #0C345C;
+    color: white;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    margin-top: 30px;
+    margin: center;
+}
+
+
+.containerInformation img {
+    margin: 30px;
+    border-radius: 20%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+}
+
+
+/*********************************************************************</>************************************************************/

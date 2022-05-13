@@ -96,7 +96,7 @@ const onChange = (e) => {
 
     
     return (
-        <div className='divForm'>
+        <div className='containerSignin'>
             <div className='headerForm'>
                 <img src={udg} alt="" />
                 <img src={cuceiBlack} alt="" />
@@ -108,7 +108,8 @@ const onChange = (e) => {
                 ))}
             </form>
             <div className='buttonForm'>
-                <button onClick={handleSubmit}>Enviar</button>
+                {/*<button onClick={handleSubmit} >Enviar</button>*//*Se utilizará una vez que el back-end esté listo para conectarse al front-end*/}
+                <a href="/Ingresar" data-toggle="Ingresar" type='button'>Enviar</a>
             </div>
         </div>
     );

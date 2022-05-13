@@ -12,7 +12,7 @@ const NavbarCaro = () => {
             <nav className="navbar" style={{backgroundColor: "rgba(12, 52, 92, .7)", height: 80 }}>
                 <div className="container-fluid">
                     <div className='d-flex justify-content-start' id='navbarPlaneacion'>
-                        <a href="/#" aria-labelledby='Home' ><h1><AiOutlineHome /></h1></a> &nbsp; &nbsp;  &nbsp;  &nbsp;  &nbsp;
+                        <a href="/Usuario" aria-labelledby='Home' ><h1><AiOutlineHome /></h1></a> &nbsp; &nbsp;  &nbsp;  &nbsp;  &nbsp;
                         <h1><RiFileList2Line/> Planeación</h1> 
                         &nbsp; &nbsp; <h1><MdArrowRight/></h1> &nbsp; &nbsp; 
                         <h1><HiOutlineDocumentDuplicate /> Datos profesionales</h1>

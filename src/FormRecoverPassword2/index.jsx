@@ -24,8 +24,8 @@ const inputs =[
     id:2,
     name:"password",
     type:"password",
-    placeholder:"Contraseña",
-    errorMessage:"PONER CONDICION QUE DIGA QUE DEBE COINCIDIR CON LA CONTRASEÑA ASIGNADA A ESTE EMAIL",
+    placeholder:"Nueva contraseña",
+    //errorMessage:"PONER CONDICION QUE DIGA QUE DEBE COINCIDIR CON LA CONTRASEÑA ASIGNADA A ESTE EMAIL",
     label:"Contraseña",
     pattern: `^(?=.*[0-9])(?=.*[a-zA-Z])(?=.*[!@#$%^&*])[a-zA-Z0-9!@#$%^&*]{8,20}$`,
     required: true,
@@ -34,7 +34,7 @@ const inputs =[
     id:3,
     name:"confirmPassword",
     type:"password",
-    placeholder:"Confirmar contraseña",
+    placeholder:"Confirmar nueva contraseña",
     errorMessage:"La contraseña no coincide",
     label:"Confirmar contraseña",
     pattern: values.password,
@@ -52,13 +52,14 @@ const onChange = (e) => {
 };
     
     return (
-        <div className='containerLogin'>
+        <div className='containerRecoverPassword2'>
             <form>
                 <h1>Recuperación de contraseña</h1>
                 {inputs.map((input) => (
                     <FormInput key={input.id} {...input} value={values[input.name]} onChange={onChange}/>
                 ))}
-                <button onClick={handleSubmit} >Enviar</button>
+                {/*<button onClick={handleSubmit} >Enviar</button>*/}
+                <a href="/Ingresar" data-toggle="Ingresar" type='button'>Enviar</a>
             </form>
         </div>
     );
