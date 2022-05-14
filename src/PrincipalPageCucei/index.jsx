@@ -4,7 +4,7 @@ import "./index.css"
 const PrincipalPageCucei = () => {
     const CuceiImages = require.context('../assets/images', true);
     return (
-        <div className=''>
+        
             <div id="carousel" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-indicators">
                     <button type="button" data-bs-target="#carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -45,7 +45,7 @@ const PrincipalPageCucei = () => {
                     <span class="visually-hidden">Siguiente</span>
                 </button>
             </div>
-        </div>
+        
     );
 };
 
