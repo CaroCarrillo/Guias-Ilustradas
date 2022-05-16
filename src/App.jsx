@@ -11,7 +11,10 @@ import FormSignin from './FormSignin';
 import EditInformation from './EditInformation';
 import {MateriaTable} from './MateriaTable';
 import {MateriaInfo} from './MateriaInfo';
-//import {Cronograma} from './Cronograma';
+import {NavbarCronograma} from './NavbarCronograma';
+import {Cronograma} from './Cronograma';
+import {Unidad} from './Unidad';
+import Referencias from './Referencias';
 
 
 
@@ -31,7 +34,10 @@ function App() {
           <Route path='/Cursos' element={<MateriaTable/>} exact />
           <Route path='/Materia' element={<MateriaInfo/>} exact />
           <Route path='/Usuario' element={<Usuario/>} exact />
-          {/*<Route path='/Moncho' element={<Cronograma/>} exact />*/}
+          <Route path='/NavbarCronograma' element={<NavbarCronograma/>} exact />
+          <Route path='/Cronograma' element={<Cronograma/>} exact />
+          <Route path='/Unidad' element={<Unidad/>} exact />
+          <Route path='/Referencias' element={<Referencias/>} exact />
         </Routes>
       </Router>
             

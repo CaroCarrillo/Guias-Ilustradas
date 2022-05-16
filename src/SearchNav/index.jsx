@@ -1,32 +1,30 @@
-import React from 'react'
+import React from 'react';
 import './index.css'
+import { AiOutlineHome } from "react-icons/ai"; /*Ícono de home*/
+import { RiFileList2Line } from "react-icons/ri";/*Ícono de planeación*/ 
+import { MdArrowRight } from "react-icons/md"; /*Ícono de flecha*/ 
+import { HiOutlineDocumentDuplicate } from "react-icons/hi";/*Ícono de datos profesionales*/
 
-import { Link } from 'react-router-dom';
 
-import { RiFileList2Line } from "react-icons/ri";
-
-import { AiOutlineHome } from "react-icons/ai";
-import { MdArrowRight } from "react-icons/md";
-import { HiOutlineDocumentDuplicate } from "react-icons/hi";
-function SearchNav() {
-  return (
-      
-    <div id='search-nav-bar'>
-      <div className='container-fluid pt-4'>
-        <div className='row'>
-          <div className='col'>
-          &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;Planeación &nbsp; &nbsp;> &nbsp; &nbsp; Mis cursos
-          </div>
-          <div className='col'>
-            <input className='search-materia-info' type="text" placeholder='Buscar Materia'/>
-          </div>
-
-        </div>
-      </div>
-
-    </div>
-  )
-  
-}
+const SearchNav = () => {
+    return (
+        <div>
+            <nav className="navbar" style={{backgroundColor: "rgba(12, 52, 92, .7)", height: 100 }}>
+                <div className="container-fluid">
+                    <div className='d-flex justify-content-start ps-5' id='navbarPlaneacion'>
+                        <a href="/Usuario" aria-labelledby='Home'className='px-5' ><h1><AiOutlineHome /></h1></a> &nbsp; &nbsp;  &nbsp;  &nbsp;  &nbsp;
+                        <h1><RiFileList2Line/> Planeación</h1> 
+                        &nbsp; &nbsp; <h1><MdArrowRight/></h1> &nbsp; &nbsp; 
+                        <h1><HiOutlineDocumentDuplicate /> Mis cursos</h1>
+                    </div>
+                    <div className='d-flex justify-content-end pe-5'>
+                        <input className='search-materia-info rounded-pill px-5 border border-5' type="text" placeholder='Buscar Materia' style={{fontSize: "1.2em", color:"black"}}/>
+                    </div>
+                    
+                </div>
+            </nav>
+        </div>    
+    );
+};
 
 export {SearchNav}

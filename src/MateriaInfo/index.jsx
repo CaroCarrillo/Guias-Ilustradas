@@ -13,10 +13,10 @@ function MateriaInfo() {
                     {/* Table header */}
                     <div className='row header-table-info pt-2'>
                         <div className='col '>
-                            <p>Información de la materia</p>
+                            <p>INFORMACIÓN DE LA MATERIA</p>
                         </div>
                         <div className='col'>
-                            <p className='text-right'>Solo lectura</p>
+                            <p className='text-right'>SOLO LECTURA</p>
                         </div>
 
                     </div>
@@ -24,34 +24,34 @@ function MateriaInfo() {
 
                     <div className='row content-table-info'>
                         <div className='col '>
-                            <span><strong>NRC</strong></span><span>: 20440912</span>
+                            <span><strong>NRC</strong></span><span>: 193714</span>
                         </div>
                         <div className='col'>
-                            <span><strong>Edificio/Aula</strong></span><span>: A/AHF</span>
+                            <span><strong>EDIFICIO/AULA</strong></span><span>: DESV2/A040</span>
                         </div>
                     </div>
                     <div className='row content-table-info'>
                         <div className='col '>
-                            <span><strong>DPT</strong></span><span>: Electronica y comunicaciones</span>
+                            <span><strong>DPT</strong></span><span>: ELECTRÓNICA Y COMUNICACIONES</span>
                         </div>
                         <div className='col'>
-                            <span><strong>Dias de clase</strong></span><span>: martes</span>
+                            <span><strong>DÍAS DE CLASE</strong></span><span>: LUNES, MIÉRCOLES</span>
                         </div>
                     </div>
                     <div className='row content-table-info'>
                         <div className='col '>
-                            <span><strong>Clave</strong></span><span>: asdasdasd</span>
+                            <span><strong>CLAVE</strong></span><span>: IL353</span>
                         </div>
                         <div className='col'>
-                            <span><strong>Horario</strong></span><span>: !7:00 - 18:00</span>
+                            <span><strong>HORARIO</strong></span><span>: 1300-1455</span>
                         </div>
                     </div>
                     <div className='row content-table-info'>
                         <div className='col '>
-                            <span><strong>Seccion</strong></span><span>: CCC</span>
+                            <span><strong>SECCIÓN</strong></span><span>: D02</span>
                         </div>
                         <div className='col'>
-                            <span><strong>Fecha inicio / Fin</strong></span><span>: 10/03/2022</span>
+                            <span><strong>FECHA INICIO/ FIN</strong></span><span>: 17-ENE-22/ 02-JUN-22</span>
                         </div>
                     </div>
                     <div className='row'>
@@ -59,7 +59,7 @@ function MateriaInfo() {
                             {/*<button className='button-cronograma'>
                                 Ver cronograma de actividades
                                 </button>*/}
-                            <a href="/Moncho" type='button'>Ver cronograma de actividades</a>
+                            <a href="/Cronograma" type='button'>VER CRONOGRAMA DE ACTIVIDADES</a>
                         </div>
 
                     </div>
