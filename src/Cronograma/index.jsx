@@ -1,117 +1,123 @@
 import React from 'react'
-import { NavarCronograma } from '../NavarCronograma'
-import './index.css'
+import { NavbarCronograma } from '../NavbarCronograma'
+
 
 function Cronograma() {
-  return (
-      <div >
-          <NavarCronograma/>
-          <div className='container mt-3'>
-              <table class="table table-bordered">
-                  <tr class="table-primary ">
-                      <td class="table-primary">Semanas</td>
-                      <td class="table-primary">1</td>
-                      <td class="table-primary">2</td>
-                      <td class="table-primary">3</td>
-                      <td class="table-primary">4</td>
-                      <td class="table-primary">5</td>
-                      <td class="table-primary">6</td>
-                      <td class="table-primary">7</td>
-                      <td class="table-primary">8</td>
-                      <td class="table-primary">9</td>
-                      <td class="table-primary">10</td>
-                      <td class="table-primary">11</td>
-                      <td class="table-primary">12</td>
-                      <td class="table-primary">13</td>
-                      <td class="table-primary">14</td>
-                      <td class="table-primary">15</td>
-                      <td class="table-primary">16</td>
-                      <td class="table-primary">17</td>
-                  </tr>
-                  <tr class="table-primary">
-                      <td class="table-primary">Unidad 1</td>
-                      <td class="table-primary">x</td>
-                      <td class="table-primary">x</td>
-                      <td class="table-primary">x</td>
-                      <td class="table-primary">x</td>
-                      <td class="table-primary"></td>
-                      <td class="table-primary"></td>
-                      <td class="table-primary"></td>
-                      <td class="table-primary"></td>
-                      <td class="table-primary"></td>
-                      <td class="table-primary"></td>
-                      <td class="table-primary"></td>
-                      <td class="table-primary"></td>
-                      <td class="table-primary"></td>
-                      <td class="table-primary"></td>
-                      <td class="table-primary"></td>
-                      <td class="table-primary"></td>
-                      <td class="table-primary"></td>
-                  </tr>
-                  <tr class="table-primary">
-                      <td class="table-primary">Unidad 2</td>
-                      <td class="table-primary"></td>
-                      <td class="table-primary"></td>
-                      <td class="table-primary"></td>
-                      <td class="table-primary"></td>
-                      <td class="table-primary">x</td>
-                      <td class="table-primary">x</td>
-                      <td class="table-primary">x</td>
-                      <td class="table-primary">x</td>
-                      <td class="table-primary"></td>
-                      <td class="table-primary"></td>
-                      <td class="table-primary"></td>
-                      <td class="table-primary"></td>
-                      <td class="table-primary"></td>
-                      <td class="table-primary"></td>
-                      <td class="table-primary"></td>
-                      <td class="table-primary"></td>
-                      <td class="table-primary"></td>
-                  </tr>
-                  <tr class="table-primary">
-                      <td class="table-primary">Unidad 3</td>
-                      <td class="table-primary"></td>
-                      <td class="table-primary"></td>
-                      <td class="table-primary"></td>
-                      <td class="table-primary"></td>
-                      <td class="table-primary"></td>
-                      <td class="table-primary"></td>
-                      <td class="table-primary"></td>
-                      <td class="table-primary"></td>
-                      <td class="table-primary">x</td>
-                      <td class="table-primary">x</td>
-                      <td class="table-primary">x</td>
-                      <td class="table-primary">x</td>
-                      <td class="table-primary"></td>
-                      <td class="table-primary"></td>
-                      <td class="table-primary"></td>
-                      <td class="table-primary"></td>
-                      <td class="table-primary"></td>
-                  </tr>
-                  <tr class="table-primary">
-                      <td class="table-primary">Unidad 4</td>
-                      <td class="table-primary"></td>
-                      <td class="table-primary"></td>
-                      <td class="table-primary"></td>
-                      <td class="table-primary"></td>
-                      <td class="table-primary"></td>
-                      <td class="table-primary"></td>
-                      <td class="table-primary"></td>
-                      <td class="table-primary"></td>
-                      <td class="table-primary"></td>
-                      <td class="table-primary"></td>
-                      <td class="table-primary"></td>
-                      <td class="table-primary"></td>
-                      <td class="table-primary">x</td>
-                      <td class="table-primary">x</td>
-                      <td class="table-primary">x</td>
-                      <td class="table-primary">x</td>
-                      <td class="table-primary">x</td>
-                  </tr>
-              </table>
-          </div>
-      </div>
-  )
+    return (
+        <div >
+            <NavbarCronograma />
+            <div className='div d-flex justify-content-center align-items-center mt-5' >
+            <div className='container border border-5 rounded-3 p-4 mt-5' >
+                <table class="table table-hover">
+                    <thead>
+                        <tr>
+                            <th scope="col" style={{ color: "#0C345C" }} className='fs-5' >Semanas</th>
+                            <th scope="col">1</th>
+                            <th scope="col">2</th>
+                            <th scope="col">3</th>
+                            <th scope="col">4</th>
+                            <th scope="col">5</th>
+                            <th scope="col">6</th>
+                            <th scope="col">7</th>
+                            <th scope="col">8</th>
+                            <th scope="col">9</th>
+                            <th scope="col">10</th>
+                            <th scope="col">11</th>
+                            <th scope="col">12</th>
+                            <th scope="col">13</th>
+                            <th scope="col">14</th>
+                            <th scope="col">15</th>
+                            <th scope="col">16</th>
+                            <th scope="col">17</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th style={{ color: "#0C345C" }} scope="row">Unidad 1</th>
+                            <td>✓</td>
+                            <td>✓</td>
+                            <td>✓</td>
+                            <td>✓</td>
+                            <td> </td>
+                            <td> </td>
+                            <td> </td>
+                            <td> </td>
+                            <td> </td>
+                            <td> </td>
+                            <td> </td>
+                            <td> </td>
+                            <td> </td>
+                            <td> </td>
+                            <td> </td>
+                            <td> </td>
+                            <td> </td>
+                        </tr>
+                        <tr>
+                            <th style={{ color: "#0C345C" }} scope="row">Unidad 2</th>
+                            <td> </td>
+                            <td> </td>
+                            <td> </td>
+                            <td> </td>
+                            <td>✓</td>
+                            <td>✓</td>
+                            <td>✓</td>
+                            <td>✓</td>
+                            <td> </td>
+                            <td> </td>
+                            <td> </td>
+                            <td> </td>
+                            <td> </td>
+                            <td> </td>
+                            <td> </td>
+                            <td> </td>
+                            <td> </td>
+                        </tr>
+                        <tr>
+                            <th style={{ color: "#0C345C" }} scope="row">Unidad 3</th>
+                            <td> </td>
+                            <td> </td>
+                            <td> </td>
+                            <td> </td>
+                            <td> </td>
+                            <td> </td>
+                            <td> </td>
+                            <td> </td>
+                            <td>✓</td>
+                            <td>✓</td>
+                            <td>✓</td>
+                            <td>✓</td>
+                            <td> </td>
+                            <td> </td>
+                            <td> </td>
+                            <td> </td>
+                            <td> </td>
+                        </tr>
+                        <tr>
+                            <th style={{ color: "#0C345C" }} scope="row">Unidad 4</th>
+                            <td> </td>
+                            <td> </td>
+                            <td> </td>
+                            <td> </td>
+                            <td> </td>
+                            <td> </td>
+                            <td> </td>
+                            <td> </td>
+                            <td> </td>
+                            <td> </td>
+                            <td> </td>
+                            <td> </td>
+                            <td>✓</td>
+                            <td>✓</td>
+                            <td>✓</td>
+                            <td>✓</td>
+                            <td>✓</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        </div>
+    )
 }
 
-export {Cronograma}
+export { Cronograma }

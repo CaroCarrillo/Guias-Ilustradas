@@ -1,0 +1,19 @@
+
+.navbar-cronograma{
+    background-color: rgba(12, 52, 92, .7);
+    height: 4em;
+    
+}
+
+.nav-elements{
+    color: white;
+    text-align: center;
+    font-size: 1.3em;    
+}
+
+.nav-elements a:hover{
+    text-decoration: none;
+    color: #0C345C;
+}
+
+

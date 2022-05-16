@@ -15,5 +15,18 @@
 }
 
 .content-table{
-    border-bottom: solid gray .13rem;
+    border-bottom: solid gray .13rem
 }
+
+.content-table p, .content-table a{
+    color: black;
+    text-decoration: none;
+}
+
+.content-table a:hover{
+    background-color:rgba(12, 52, 92, 0.226);
+    border-radius: 5px;
+    font-size: 2em;
+
+}
+

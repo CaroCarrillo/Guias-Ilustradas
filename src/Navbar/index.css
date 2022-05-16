@@ -1,6 +1,6 @@
 .nav-bar{
     background-color: #0C345C;
-    height: 50px;
+    height: 4em;
 }
 .nav-bar_list{
     text-decoration: none;
@@ -8,13 +8,18 @@
     list-style: none;
 }
 .nav-bar_list li img{
-    height: 2rem;
-    border-radius: 20px;
+    height: 2.5rem;
+    margin-top: 1em;
 }
 .nav-bar_list li button{
     background-color: #0C345C;;
-    color: white
+    color: white;
+    margin-top: .5em;
     
+}
+
+#cerrarSesion a:hover{
+    text-decoration: none;
 }
 
 .nav-bar_list .btn:focus{

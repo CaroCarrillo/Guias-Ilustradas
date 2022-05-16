@@ -1,11 +1,11 @@
 import React from 'react'
-import { NavarCronograma } from '../NavarCronograma'
+import { NavbarCronograma } from '../NavbarCronograma'
 import './index.css'
 
 function Unidad() {
   return (
       <div>
-          <NavarCronograma />
+          <NavbarCronograma />
           <div className='container unidad-text-container'>
               <div class="card centered-card">
                   <div class="card-body">
