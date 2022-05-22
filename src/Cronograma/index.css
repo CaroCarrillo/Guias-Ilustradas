@@ -1,0 +1,8 @@
+#Cronograma a{
+    text-decoration: none;
+    color: gray;
+} 
+
+.table>:not(caption)>*>*{
+    border-bottom-width: 0px;
+}

@@ -13,13 +13,13 @@ const PrincipalPageCucei = () => {
                 </div>
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img src={CuceiImages('./ImageCucei1.jpg')} class="d-block w-100" alt="..."/>
+                        <img src={CuceiImages('./imagenCarrusel1.jpeg')} class="d-block w-100" alt="..."/>
                     </div>
                     <div class="carousel-item">
-                        <img src={CuceiImages('./ImageCucei2.jpg')} class="d-block w-100" alt="..."/>
+                        <img src={CuceiImages('./imagenCarrusel2.jpeg')} class="d-block w-100" alt="..."/>
                     </div>
                     <div class="carousel-item">
-                        <img src={CuceiImages('./ImageCucei3.jpg')} class="d-block w-100" alt="..." />
+                        <img src={CuceiImages('./imagenCarrusel3.jpeg')} class="d-block w-100" alt="..." />
                     </div>
                 </div>
                 <div class="overlay">

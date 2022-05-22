@@ -15,6 +15,7 @@ import {NavbarCronograma} from './NavbarCronograma';
 import {Cronograma} from './Cronograma';
 import {Unidad} from './Unidad';
 import Referencias from './Referencias';
+import FinalProject from './FinalProject';
 
 
 
@@ -38,6 +39,7 @@ function App() {
           <Route path='/Cronograma' element={<Cronograma/>} exact />
           <Route path='/Unidad' element={<Unidad/>} exact />
           <Route path='/Referencias' element={<Referencias/>} exact />
+          <Route path='/FinalProject' element={<FinalProject/>} exact />
         </Routes>
       </Router>
             

@@ -31,7 +31,7 @@ function NavbarCronograma() {
                         </div>
                     </div>
                     <div className='col nav-elements'>
-                        <a href="/">PROYECTO FINAL</a>
+                        <a href="/FinalProject">PROYECTO FINAL</a>
                     </div>
                     <div className='col nav-elements'>
                         <a href="/Referencias">REFERENCIAS</a>
