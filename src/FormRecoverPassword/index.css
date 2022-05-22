@@ -36,16 +36,16 @@ body{
     height: 45px;
     text-align: center;
     margin-left: 35px;
-    background-color: #0C345C; 
-    color: white;
-    border-radius: 5px;
+    
+    color: red;
+    
     font-size: 18px;
-    padding: 8px 0px;
-}
+    
+} 
 
-.containerRecoverPassword a:hover {
+/* .containerRecoverPassword a:hover {
     text-decoration: none;
-}
+} */
 /****************************************/
 
 
