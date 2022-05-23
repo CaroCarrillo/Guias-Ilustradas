@@ -7,57 +7,135 @@ import './index.css';
 function Cronograma() {
     let cursos = [
         {
-            "titleUnidad":"Historia: tecnologia de la informacion",
+            "titleUnidad":"Unidad 1 - Historia: tecnologías de la información",
             "Unidad": [
                 {
-                    "subtema": "informatica bbghbbbbhuhbuhbhbbbhbubbbbujhbbnhuhjhuujhbhbujjuhb",
-                    "texto": " La informática, también llamada computación, es el área de la ciencia que se encarga de estudiar la administración de métodos, técnicas y procesos con el fin de almacenar, procesar y transmitir información y datos en formato digital.",
+                    "subtema": " 1.1 Informática",
+                    "texto": "La informática, también llamada computación, es el área de la ciencia que se encarga de estudiar la administración de métodos, técnicas y procesos con el fin de almacenar, procesar y transmitir información y datos en formato digital.",
                     "semana": 1
                 },
                 {
-                    "subtema": "Algoritmo",
-                    "texto": " El texto va aqui",
+                    "subtema": " 1.2 Algoritmo",
+                    "texto": "Un algoritmo es un conjunto de reglas definidas que permite solucionar un problema, de una determinada manera, mediante operaciones sitemáticas (no necesariamente ordenadas) y finitas. Estas instrucciones, definidas y ordenadas en función de los datos, resuelven el problema o la tarea.",
                     "semana": 1
                 },
                 {
-                    "subtema": "Bit",
-                    "texto": " El texto va aqui",
+                    "subtema": " 1.3 Bit",
+                    "texto": "En informática y otras disciplinas, unidad mínima de información, que puede tener solo dos valores (cero o uno).",
                     "semana": 2
                 },
                 {
-                    "subtema": "Logica",
-                    "texto": " El texto va aqui",
+                    "subtema": " 1.4 Lógica y conjuntos",
+                    "texto": "Un conjuntos es la reunión en un todo de objetos bien definidos y diferenciables entre sí, que se llaman elementos del mismo. Si a es un elemento del conjunto A se denota con la relación de pertenencia a Î A. En caso contrario, si a no es un elemento de A se denota aÏ A.",
                     "semana": 2
+                },
+                {
+                    "subtema": " 1.5 Código binario y su almacenamiento (Bytes)",
+                    "texto": "Los códigos binarios son un arreglo de dos caracteres, 1 y 0. Entonces, con sólo estos dos dígitos se pueden representar a todo el conjunto de números. También se pueden realizar operaciones lógicas y aritméticas.",
+                    "semana": 3
+                },
+                {
+                    "subtema": " 1.6 Representación de lenguaje de algo nivel Carácter (ASCII)",
+                    "texto": "El código ASCII es una codificación de caracteres que determina su representación en los dispositivos electrónicos como, por ejemplo, los ordenadores. Ahora bien, para que un ordenador pueda procesar los caracteres individuales, primero deben adoptar valores binarios, decimales y hexadecimales.",
+                    "semana": 4
+                },
+                {
+                    "subtema": " 1.7 Arquitecturas Hardware",
+                    "texto": "El hardware de una computadora está compuesto por la unidad central, los dispositivos periféricos de entrada, de salida y de entrada/salida, así como por los cables, conexiones y puertos que permiten la interacción de todos ellos. Todos estos elementos en conjunto constituyen la arquitectura básica de la computadora.",
+                    "semana": 5
+                },
+                {
+                    "subtema": " 1.8 Software",
+                    "texto": "Conjunto de programas y rutinas que permiten a la computadora realizar determinadas tareas.",
+                    "semana": 6
+                }
+
+            ]
+        },
+        {
+            "titleUnidad":"Unidad 2 - Industria X.0",
+            "Unidad": [
+                {
+                    "subtema": "2.1 Los sistemas del sistema empresa ERPs",
+                    "texto": "l término ERP se refiere a Enterprise Resource Planning, que significa “sistema de planificación de recursos empresariales”. Estos programas se hacen cargo de distintas operaciones internas de una empresa, desde producción a distribución o incluso recursos humanos.",
+                    "semana": 7
+                },
+                {
+                    "subtema": "2.2 Interfaz Hombre-Máquina",
+                    "texto": "El Interfaz Hombre-Máquina (HMI) es el interfaz entre el proceso y los operario; se trata básicamente de un panel de instrumentos del operario. Es la principal herramienta utilizada por operarios y supervisores de línea para coordinar y controlar procesos industriales y de fabricación.",
+                    "semana": 8
                 }
             ]
         },
         {
-            "titleUnidad":"titulo2",
+            "titleUnidad":"Unidad 3 - Gestión de proyectos TI",
             "Unidad": [
                 {
-                    "subtema": "informatica bbghbbbbhuhbuhbhbbbhbubbbbujhbbnhuhjhuujhbhbujjuhb",
-                    "texto": " La informática, también llamada computación, es el área de la ciencia que se encarga de estudiar la administración de métodos, técnicas y procesos con el fin de almacenar, procesar y transmitir información y datos en formato digital.",
-                    "semana": 1
+                    "subtema": " 3.1 Introducción metodología PMI",
+                    "texto": "Un estándar global del PMI brinda lineamientos, reglas y características, ampliamente aceptados a nivel mundial, se aplican consistentemente, y ayudan a lograr la excelencia profesional y organizacional en la Administración de Proyectos.",
+                    "semana": 9
                 },
                 {
-                    "subtema": "Algoritmo",
-                    "texto": " El texto va aqui",
-                    "semana": 1
+                    "subtema": " 3.2 Orígenes de la administración de proyectos",
+                    "texto": "Surge en los años de 1950 con Bernard Schriever, para la gestión de proyectos militares. Nace también el concepto concurrente, donde los trabajos deben ejecutarse por separado para encontrarse en un punto.",
+                    "semana": 10
                 },
                 {
-                    "subtema": "Bit",
-                    "texto": " El texto va aqui",
-                    "semana": 2
+                    "subtema": " 3.3 Complejidad de los proyectos de IT",
+                    "texto": "La gestión de proyectos de tecnologías de información (TI) es el proceso de planear, organizar y delimitar la responsabilidad de la realización de las metas específicas de TI de una organización.",
+                    "semana": 11
                 },
                 {
-                    "subtema": "Logica",
-                    "texto": " El texto va aqui",
-                    "semana": 2
+                    "subtema": " 3.4 Metodologías",
+                    "texto": "Una metodología de desarrollo define las fases del proyecto software, qué actividades deben de ejecutarse en cada una de la fases y su secuencia, qué roles y responsabilidades hay en cada fase del desarrollo.",
+                    "semana": 12
+                },
+                {
+                    "subtema": " 3.5 Restricciones",
+                    "texto": "Por capacidad entendemos la cantidad máxima que un sistema o un proceso puede generar. Las restricciones pueden encontrarse en los operarios, las máquinas, los recursos materiales, los recursos financieros y el espacio utilizado.",
+                    "semana": 12
+                },
+                {
+                    "subtema": " 3.6 Análisis de sistemas",
+                    "texto": "El análisis de un sistema es una de las fases en la construcción de un sistema informático, y, releva los datos (información) actuales para proponer una solución a futuro rasgos generalizados. En el análisis de un sistema podemos encontrar las siguientes etapas: Conceptualización. Análisis funcional.",
+                    "semana": 13
+                },
+                {
+                    "subtema": " 3.7 Life cycle",
+                    "texto": "El ciclo de vida de desarrollo de un sistema (SDLC) es un proceso lógico utilizado en el mundo del Desarrollo de Software sistemas para desarrollar un sistema de información, incluidos los requisitos, la validación, formación, como los usuarios (interesados) en la propiedad.",
+                    "semana": 13
+                },
+                {
+                    "subtema": " 3.8 Control de cambios",
+                    "texto": "El propósito de la práctica de control de cambios es maximizar el número de cambios de productos y servicios exitosos al garantizar que los riesgos se hayan evaluado correctamente, autorizar que se realicen los cambios y administrar el programa de cambios.",
+                    "semana": 14
                 }
             ]
-        }
+        },
+        {
+            "titleUnidad":"Unidad 4 - Internet de las cosas",
+            "Unidad": [
+                {
+                    "subtema": " 4.1 Introducción del Internet de las Cosas Industrial (IoT)",
+                    "texto": "IoT tiene como objetivo extender la conectividad a Internet más allá de las computadoras y los teléfonos inteligentes a otros dispositivos que las personas usan en el hogar o para los negocios. La tecnología permite que los dispositivos se controlen a través de la infraestructura de red de forma remota.",
+                    "semana": 15
+                },
+                {
+                    "subtema": " 4.2 Desarrollo e implementación de soluciones para IoT",
+                    "texto": "Las soluciones IoT son una muestra de cómo la tecnología se pone al servicio de la humanidad y del planeta, aplica en los hogares, industrias y ciudades, para optimizar el uso de los recursos, reducir riesgos y, en general, dar una mejor calidad de vida con un lineamiento sostenible.",
+                    "semana": 16
+                },
+                {
+                    "subtema": " 4.3 Introducción, gestión y almacenamiento de información generada por IoT",
+                    "texto": "La demanda de análisis del constante flujo de grandes volúmenes de información generada por el internet de las cosas (IoT) es denominador común en las empresas. Esto hace que la tecnología se vea obligada a dar respuestas ante estas nuevas necesidades de análisis de datos, a partir de las que poder obtener información valiosa para muy distintos fines, desde científicos hasta empresariales o, entre otros, con el objetivo de diseñar mejores políticas.",
+                    "semana": 17
+                }
+            ]
+        },
+        
     ]
 
+    /*Función para poner la palomita ✓ */
     function returnColumn(semanas) {
         var rows = [];
         for (var i = 1; i < 18; i++) {
@@ -70,6 +148,22 @@ function Cronograma() {
         return rows;
     }
 
+    /*Función para crear la fila de Unidades */
+    function createTable(informationJson){
+        let row = []
+        for (let indexUnidad = 0; indexUnidad < informationJson.length;indexUnidad ++){
+            row.push(
+            <tr className=''>
+                {/*Fila de Unidad*/}
+                <th style={{ color: "#0C345C" }} className='fs-5' scope="row">{informationJson[indexUnidad].titleUnidad}</th>
+            </tr>,
+            linkedData(informationJson, indexUnidad)
+            )
+        }
+        return row
+    }
+
+    /*Función para crear las filas de subtema además del texto y linkear cada subtema(con su información) a componente Unidad */
     function linkedData(informationJson,indexUnidad){
         let row = []
         for (let indexSubtema = 0; indexSubtema < informationJson[indexUnidad].Unidad.length; indexSubtema++){
@@ -97,25 +191,12 @@ function Cronograma() {
         return row
     }
 
-    function createTable(informationJson){
-        let row = []
-        for (let indexUnidad = 0; indexUnidad < informationJson.length;indexUnidad ++){
-            row.push(
-            <tr>
-                {/*Fila de Unidad*/}
-                <th style={{ color: "#0C345C" }} className='fs-5' scope="row">{informationJson[indexUnidad].titleUnidad}</th>
-            </tr>,
-            linkedData(informationJson, indexUnidad)
-            )
-        }
-        return row
-    }
 
     return (
         <div >
             <NavbarCronograma/>
-            <div className='d-flex justify-content-center align-items-center mt-5' id='Cronograma' >
-            <div className='container border border-2 rounded-3 p-2 mt-5'  >
+            <div className='d-flex justify-content-center align-items-center my-4' id='Cronograma' >
+            <div className='container border border-2 rounded-3 p-2'  >
                 <table class="table table-hover">
                     <thead>
                         <tr>
@@ -140,649 +221,8 @@ function Cronograma() {
                             <th scope="col">17</th>
                         </tr>
                     </thead>
-                        <tbody>
+                        <tbody >
                             {createTable(cursos)}
-                            {/************************************************* UNIDAD 1 ************************************************************
-                            {/* <tr>
-                                {/*Fila de Unidad 1 - Historia: Tecnologías de la información 
-                                <th style={{ color: "#0C345C" }} className='fs-5' scope="row">Unidad 1 - Historia: Tecnologías de la información</th>
-                            </tr>
-                            {/*************************************************************************************************************
-                            <tr>
-                                {/*Fila de Tema 1.1 - Informática 
-                                <th style={{ color: "gray" }} scope="row">
-                                    <Link
-                                        data-bs-toggle="tooltip"
-                                        data-bs-placement="top"
-                                        title="Tema 1.1 - Informática"
-                                        to="/Unidad"
-                                        state={{
-                                            title: "Unidad 1 - Historia: Tecnologías de la información",
-                                            subtitle: "Tema 1.1 Informática",
-                                            text: "La informática, también llamada computación, es el área de la ciencia que se encarga de estudiar la administración de métodos, técnicas y procesos con el fin de almacenar, procesar y transmitir información y datos en formato digital."
-                                        }}
-                                        >Tema 1.1 - Informática
-                                    </Link>
-                                </th>
-                                <td> ✓ </td>
-                                <td> </td>
-                                <td> </td>
-                                <td> </td>
-                                <td> </td>
-                                <td> </td>
-                                <td> </td>
-                                <td> </td>
-                                <td> </td>
-                                <td> </td>
-                                <td> </td>
-                                <td> </td>
-                                <td> </td>
-                                <td> </td>
-                                <td> </td>
-                                <td> </td>
-                                <td> </td>
-                            </tr>
-                            {/*************************************************************************************************************
-                            <tr>
-                                {/*Fila de Tema 1.2 - Algoritmo *
-                                <th style={{ color: "gray" }} scope="row">
-                                    <Link
-                                        data-bs-toggle="tooltip"
-                                        data-bs-placement="top"
-                                        title="Tema 1.2 - Algoritmo"
-                                        to="/Unidad"
-                                        state={{ 
-                                            title: "Unidad 1 - Historia: Tecnologías de la información", 
-                                            subtitle: "Tema 1.1 Algoritmo", 
-                                            text: " " }}
-                                        >Tema 1.2 - Algoritmo
-                                    </Link>
-                                </th>
-                                <td> ✓ </td>
-                                <td> </td>
-                                <td> </td>
-                                <td> </td>
-                                <td> </td>
-                                <td> </td>
-                                <td> </td>
-                                <td> </td>
-                                <td> </td>
-                                <td> </td>
-                                <td> </td>
-                                <td> </td>
-                                <td> </td>
-                                <td> </td>
-                                <td> </td>
-                                <td> </td>
-                                <td> </td>
-                            </tr>
-                            {/*************************************************************************************************************
-                            <tr>
-                                {/*Fila de Tema 1.3 - Bit 
-                                <th style={{ color: "gray" }} scope="row">
-                                    <Link
-                                        data-bs-toggle="tooltip"
-                                        data-bs-placement="top"
-                                        title="Tema 1.3 - Bit"
-                                        to="/Unidad"
-                                        state={{ title: "Unidad 1 - Historia: Tecnologías de la información", subtitle: "Tema 1.3 - Bit", text: " " }}
-                                    >Tema 1.3 - Bit</Link></th>
-                                <td> </td>
-                                <td> ✓ </td>
-                                <td> </td>
-                                <td> </td>
-                                <td> </td>
-                                <td> </td>
-                                <td> </td>
-                                <td> </td>
-                                <td> </td>
-                                <td> </td>
-                                <td> </td>
-                                <td> </td>
-                                <td> </td>
-                                <td> </td>
-                                <td> </td>
-                                <td> </td>
-                                <td> </td>
-                            </tr>
-                            {/************************************************************************************************************
-                            <tr>
-                                {/*Fila de Tema 1.4 - Lógica y conjuntos 
-                                <th style={{ color: "gray" }} scope="row">
-                                    <Link
-                                        data-bs-toggle="tooltip"
-                                        data-bs-placement="top"
-                                        title="Tema 1.4 - Lógica y conjuntos"
-                                        to="/Unidad"
-                                        state={{ title: "Unidad 1 - Historia: Tecnologías de la información", subtitle: "Tema 1.4 - Lógica y conjuntos", text: " " }}
-                                    >Tema 1.4 - Lógica y conjuntos</Link></th>
-                                <td> </td>
-                                <td> ✓ </td>
-                                <td> </td>
-                                <td> </td>
-                                <td> </td>
-                                <td> </td>
-                                <td> </td>
-                                <td> </td>
-                                <td> </td>
-                                <td> </td>
-                                <td> </td>
-                                <td> </td>
-                                <td> </td>
-                                <td> </td>
-                                <td> </td>
-                                <td> </td>
-                                <td> </td>
-                            </tr>
-                            {/*************************************************************************************************************
-                            <tr>
-                                {/*Fila de Tema 1.5 - Código binario y su almacenamiento (Bytes) 
-                                <th style={{ color: "gray" }} scope="row"><Link
-                                        data-bs-toggle="tooltip"
-                                        data-bs-placement="top"
-                                        title="Tema 1.5 - Código binario y su almacenamiento (Bytes) "
-                                        to="/Unidad"
-                                        state={{ title: "Unidad 1 - Historia: Tecnologías de la información", subtitle: "Tema 1.5 - Código binario y su almacenamiento (Bytes) ", text: " " }}
-                                    >Tema 1.5 - Código binario y su almacenamiento (Bytes) </Link></th>
-                                
-                                <td> </td>
-                                <td> </td>
-                                <td> ✓ </td>
-                                <td> </td>
-                                <td> </td>
-                                <td> </td>
-                                <td> </td>
-                                <td> </td>
-                                <td> </td>
-                                <td> </td>
-                                <td> </td>
-                                <td> </td>
-                                <td> </td>
-                                <td> </td>
-                                <td> </td>
-                                <td> </td>
-                                <td> </td>
-                            </tr>
-                            {/*************************************************************************************************************
-                            <tr>
-                                {/*Fila de Tema 1.6 - Representación de lenguaje de alto nivel carácter (ASCII)
-                                <th style={{ color: "gray" }} scope="row"><Link
-                                        data-bs-toggle="tooltip"
-                                        data-bs-placement="top"
-                                        title="Tema 1.6 - Representación de lenguaje de alto nivel carácter (ASCII)"
-                                        to="/Unidad"
-                                        state={{ title: "Unidad 1 - Historia: Tecnologías de la información", subtitle: "Tema 1.6 - Representación de lenguaje de alto nivel carácter (ASCII)", text: " " }}
-                                    >Tema 1.6 - Representación de lenguaje de alto nivel carácter (ASCII)</Link></th>
-                                <td> </td>
-                                <td> </td>
-                                <td> </td>
-                                <td> ✓ </td>
-                                <td> </td>
-                                <td> </td>
-                                <td> </td>
-                                <td> </td>
-                                <td> </td>
-                                <td> </td>
-                                <td> </td>
-                                <td> </td>
-                                <td> </td>
-                                <td> </td>
-                                <td> </td>
-                                <td> </td>
-                                <td> </td>
-                            </tr>
-                            {/*************************************************************************************************************
-                            <tr>
-                                {/*Fila de Tema 1.7 - Arquitectura hardware 
-                                <th style={{ color: "gray" }} scope="row"><Link
-                                        data-bs-toggle="tooltip"
-                                        data-bs-placement="top"
-                                        title="Tema 1.7 - Arquitectura hardware"
-                                        to="/Unidad"
-                                        state={{ title: "Unidad 1 - Historia: Tecnologías de la información", subtitle: "Tema 1.7 - Arquitectura hardware", text: " " }}
-                                    >Tema 1.7 - Arquitectura hardware</Link></th>
-                                <td> </td>
-                                <td> </td>
-                                <td> </td>
-                                <td> </td>
-                                <td> ✓ </td>
-                                <td> </td>
-                                <td> </td>
-                                <td> </td>
-                                <td> </td>
-                                <td> </td>
-                                <td> </td>
-                                <td> </td>
-                                <td> </td>
-                                <td> </td>
-                                <td> </td>
-                                <td> </td>
-                                <td> </td>
-                            </tr>
-                            {/*************************************************************************************************************
-                            <tr>
-                                {/*Fila de Tema 1.8 - Software *
-                                <th style={{ color: "gray" }} scope="row">
-                                    <Link
-                                        data-bs-toggle="tooltip"
-                                        data-bs-placement="top"
-                                        title="Tema 1.8 - Software"
-                                        to="/Unidad"
-                                        state={{ title: "Unidad 1 - Historia: Tecnologías de la información", subtitle: "Tema 1.8 - Software", text: " " }}
-                                    >Tema 1.8 - Software</Link></th>
-                                <td> </td>
-                                <td> </td>
-                                <td> </td>
-                                <td> </td>
-                                <td> </td>
-                                <td> ✓ </td>
-                                <td> </td>
-                                <td> </td>
-                                <td> </td>
-                                <td> </td>
-                                <td> </td>
-                                <td> </td>
-                                <td> </td>
-                                <td> </td>
-                                <td> </td>
-                                <td> </td>
-                                <td> </td>
-                            </tr> */}
-                            {/***************************************************** UNIDAD 2 *******************************************************/}
-                            <tr>
-                                {/*Fila de Unidad 2 - Industria X.0 */}
-                                <th style={{ color: "#0C345C" }} className='fs-5' scope="row">Unidad 2 - Industria X.0</th>
-                            </tr>
-                            {/*************************************************************************************************************/}
-                            <tr>
-                                {/*Fila de Tema 2.1 - Los sistemas del sistema empresa ERPs */}
-                                <th style={{ color: "gray" }} scope="row">
-                                    <Link
-                                        data-bs-toggle="tooltip"
-                                        data-bs-placement="top"
-                                        title="Tema 2.1 - Los sistemas del sistema empresa ERPs"
-                                        to="/Unidad"
-                                        state={{ title: "Unidad 2 - Industria X.0", subtitle: "Tema 2.1 - Los sistemas del sistema empresa ERPs", text:"" }}
-                                    >Tema 2.1 - Los sistemas del sistema empresa ERPs</Link></th>
-                                <td> </td>
-                                <td> </td>
-                                <td> </td>
-                                <td> </td>
-                                <td> </td>
-                                <td> ✓ </td>
-                                <td> </td>
-                                <td> </td>
-                                <td> </td>
-                                <td> </td>
-                                <td> </td>
-                                <td> </td>
-                                <td> </td>
-                                <td> </td>
-                                <td> </td>
-                                <td> </td>
-                                <td> </td>
-                            </tr>
-                            {/*************************************************************************************************************/}
-                            <tr>
-                                {/*Fila de Tema 2.2 - Interfaz hombre-máquina */}
-                                <th style={{ color: "gray" }} scope="row">
-                                    <Link
-                                        data-bs-toggle="tooltip"
-                                        data-bs-placement="top"
-                                        title="Tema 2.2 - Interfaz hombre-máquina"
-                                        to="/Unidad"
-                                        state={{ title: "Unidad 2 - Industria X.0", subtitle: "Tema 2.2 - Interfaz hombre-máquina", text:"" }}
-                                    >Tema 2.2 - Interfaz hombre-máquina</Link></th>
-                                <td> </td>
-                                <td> </td>
-                                <td> </td>
-                                <td> </td>
-                                <td> </td>
-                                <td> </td>
-                                <td> ✓ </td>
-                                <td> </td>
-                                <td> </td>
-                                <td> </td>
-                                <td> </td>
-                                <td> </td>
-                                <td> </td>
-                                <td> </td>
-                                <td> </td>
-                                <td> </td>
-                                <td> </td>
-                            </tr>
-                            {/***************************************************** UNIDAD 3 *******************************************************/}
-                            <tr>
-                                {/*Fila de Unidad 3 - Gestión de proyectos TI*/}
-                                <th style={{ color: "#0C345C" }} className='fs-5' scope="row">Unidad 3 - Gestión de proyectos TI</th>
-                            </tr>
-                            {/*************************************************************************************************************/}
-                            <tr>
-                                {/*Fila de Tema 3.1 - Introducción metodología PMI*/}
-                                <th style={{ color: "gray" }} scope="row">
-                                    <Link
-                                        data-bs-toggle="tooltip"
-                                        data-bs-placement="top"
-                                        title="Tema 3.1 - Introducción metodología PMI"
-                                        to="/Unidad"
-                                        state={{ title: "Unidad 3 - Gestión de proyectos TI", subtitle: "Tema 3.1 - Introducción metodología PMI", text:"" }}
-                                    >Tema 3.1 - Introducción metodología PMI</Link></th>
-                                <td> </td>
-                                <td> </td>
-                                <td> </td>
-                                <td> </td>
-                                <td> </td>
-                                <td> </td>
-                                <td> </td>
-                                <td> ✓ </td>
-                                <td> </td>
-                                <td> </td>
-                                <td> </td>
-                                <td> </td>
-                                <td> </td>
-                                <td> </td>
-                                <td> </td>
-                                <td> </td>
-                                <td> </td>
-                            </tr>
-                            {/*************************************************************************************************************/}
-                            <tr>
-                                {/*Fila de Tema 3.2 - Origenes de la administración de proyectos*/}
-                                <th style={{ color: "gray" }} scope="row">
-                                    <Link
-                                        data-bs-toggle="tooltip"
-                                        data-bs-placement="top"
-                                        title="Tema 3.2 - Origenes de la administración de proyectos"
-                                        to="/Unidad"
-                                        state={{ title: "Unidad 3 - Gestión de proyectos TI", subtitle: "Tema 3.2 - Origenes de la administración de proyectos", text:"" }}
-                                    >Tema 3.2 - Origenes de la administración de proyectos</Link></th>
-                                <td> </td>
-                                <td> </td>
-                                <td> </td>
-                                <td> </td>
-                                <td> </td>
-                                <td> </td>
-                                <td> </td>
-                                <td> </td>
-                                <td> ✓ </td>
-                                <td> </td>
-                                <td> </td>
-                                <td> </td>
-                                <td> </td>
-                                <td> </td>
-                                <td> </td>
-                                <td> </td>
-                                <td> </td>
-                            </tr>
-                            {/*************************************************************************************************************/}
-                            <tr>
-                                {/*Fila de Tema 3.3 - Complejidad de los proyectos de IT*/}
-                                <th style={{ color: "gray" }} scope="row">
-                                    <Link
-                                        data-bs-toggle="tooltip"
-                                        data-bs-placement="top"
-                                        title="Tema 3.3 - Complejidad de los proyectos de IT"
-                                        to="/Unidad"
-                                        state={{ title: "Unidad 3 - Gestión de proyectos TI", subtitle: "Tema 3.3 - Complejidad de los proyectos de IT", text:"" }}
-                                    >Tema 3.3 - Complejidad de los proyectos de IT</Link></th>
-                                <td> </td>
-                                <td> </td>
-                                <td> </td>
-                                <td> </td>
-                                <td> </td>
-                                <td> </td>
-                                <td> </td>
-                                <td> </td>
-                                <td> ✓ </td>
-                                <td> </td>
-                                <td> </td>
-                                <td> </td>
-                                <td> </td>
-                                <td> </td>
-                                <td> </td>
-                                <td> </td>
-                                <td> </td>
-                            </tr>
-                            {/*************************************************************************************************************/}
-                            <tr>
-                                {/*Fila de Tema 3.4 - Metodologías*/}
-                                <th style={{ color: "gray" }} scope="row">
-                                    <Link
-                                        data-bs-toggle="tooltip"
-                                        data-bs-placement="top"
-                                        title="Tema 3.4 - Metodologías"
-                                        to="/Unidad"
-                                        state={{ title: "Unidad 3 - Gestión de proyectos TI", subtitle: "Tema 3.4 - Metodologías", text:"" }}
-                                    >Tema 3.4 - Metodologías</Link></th>
-                                <td> </td>
-                                <td> </td>
-                                <td> </td>
-                                <td> </td>
-                                <td> </td>
-                                <td> </td>
-                                <td> </td>
-                                <td> </td>
-                                <td> </td>
-                                <td> ✓ </td>
-                                <td> </td>
-                                <td> </td>
-                                <td> </td>
-                                <td> </td>
-                                <td> </td>
-                                <td> </td>
-                                <td> </td>
-                            </tr>
-                            {/*************************************************************************************************************/}
-                            <tr>
-                                {/*Fila de Tema 3.5 - Restricciones*/}
-                                <th style={{ color: "gray" }} scope="row">
-                                    <Link
-                                        data-bs-toggle="tooltip"
-                                        data-bs-placement="top"
-                                        title="Tema 3.5 - Restricciones"
-                                        to="/Unidad"
-                                        state={{ title: "Unidad 3 - Gestión de proyectos TI", subtitle: "Tema 3.5 - Restricciones", text:"" }}
-                                    >Tema 3.5 - Restricciones</Link></th>
-                                <td> </td>
-                                <td> </td>
-                                <td> </td>
-                                <td> </td>
-                                <td> </td>
-                                <td> </td>
-                                <td> </td>
-                                <td> </td>
-                                <td> </td>
-                                <td> </td>
-                                <td> ✓ </td>
-                                <td> </td>
-                                <td> </td>
-                                <td> </td>
-                                <td> </td>
-                                <td> </td>
-                                <td> </td>
-                            </tr>
-                            {/*************************************************************************************************************/}
-                            <tr>
-                                {/*Fila de Tema 3.6 - Análisis de sistemas*/}
-                                <th style={{ color: "gray" }} scope="row">
-                                    <Link
-                                        data-bs-toggle="tooltip"
-                                        data-bs-placement="top"
-                                        title="Tema 3.6 - Análisis de sistemas
-                                        "
-                                        to="/Unidad"
-                                        state={{ title: "Unidad 3 - Gestión de proyectos TI", subtitle: "Tema 3.6 - Análisis de sistemas", text:"" }}
-                                    >Tema 3.6 - Análisis de sistemas</Link></th>
-                                <td> </td>
-                                <td> </td>
-                                <td> </td>
-                                <td> </td>
-                                <td> </td>
-                                <td> </td>
-                                <td> </td>
-                                <td> </td>
-                                <td> </td>
-                                <td> </td>
-                                <td> </td>
-                                <td> ✓ </td>
-                                <td> </td>
-                                <td> </td>
-                                <td> </td>
-                                <td> </td>
-                                <td> </td>
-                            </tr>
-                            {/*************************************************************************************************************/}
-                            <tr>
-                                {/*Fila de Tema 3.7 - Life Cycle*/}
-                                <th style={{ color: "gray" }} scope="row">
-                                    <Link
-                                        data-bs-toggle="tooltip"
-                                        data-bs-placement="top"
-                                        title="Tema 3.7 - Life Cycle"
-                                        to="/Unidad"
-                                        state={{ title: "Unidad 3 - Gestión de proyectos TI", subtitle: "Tema 3.7 - Life Cycle", text:"" }}
-                                    >Tema 3.7 - Life Cycle</Link></th>
-                                <td> </td>
-                                <td> </td>
-                                <td> </td>
-                                <td> </td>
-                                <td> </td>
-                                <td> </td>
-                                <td> </td>
-                                <td> </td>
-                                <td> </td>
-                                <td> </td>
-                                <td> </td>
-                                <td> </td>
-                                <td> ✓ </td>
-                                <td> </td>
-                                <td> </td>
-                                <td> </td>
-                                <td> </td>
-                            </tr>
-                            {/*************************************************************************************************************/}
-                            <tr>
-                                {/*Fila de Tema 3.8 - Control de cambios*/}
-                                <th style={{ color: "gray" }} scope="row">
-                                    <Link
-                                        data-bs-toggle="tooltip"
-                                        data-bs-placement="top"
-                                        title="Tema 3.8 - Control de cambios"
-                                        to="/Unidad"
-                                        state={{ title: "Unidad 3 - Gestión de proyectos TI", subtitle: "Tema 3.8 - Control de cambios", text:"" }}
-                                    >Tema 3.8 - Control de cambios</Link></th>
-                                <td> </td>
-                                <td> </td>
-                                <td> </td>
-                                <td> </td>
-                                <td> </td>
-                                <td> </td>
-                                <td> </td>
-                                <td> </td>
-                                <td> </td>
-                                <td> </td>
-                                <td> </td>
-                                <td> </td>
-                                <td> </td>
-                                <td> ✓ </td>
-                                <td> </td>
-                                <td> </td>
-                                <td> </td>
-                            </tr>
-                            {/***************************************************** UNIDAD 4 *******************************************************/}
-                            <tr>
-                                {/*Fila de Unidad 4 - Internet de las cosas*/}
-                                <th style={{ color: "#0C345C" }} className='fs-5' scope="row">Unidad 4 - Internet de las cosas</th>
-                            </tr>
-                            {/*************************************************************************************************************/}
-                            <tr>
-                                {/*Fila de Tema 4.1 - Introducción del internet de las cosas industrial (IoT)*/}
-                                <th style={{ color: "gray" }} scope="row">
-                                    <Link
-                                        data-bs-toggle="tooltip"
-                                        data-bs-placement="top"
-                                        title="TTema 4.1 - Introducción del internet de las cosas industrial (IoT)"
-                                        to="/Unidad"
-                                        state={{ title: "Unidad 4 - Internet de las cosas", subtitle: "Tema 4.1 - Introducción del internet de las cosas industrial (IoT)", text:"" }}
-                                    >Tema 4.1 - Introducción del internet de las cosas industrial (IoT)</Link></th>
-                                <td> </td>
-                                <td> </td>
-                                <td> </td>
-                                <td> </td>
-                                <td> </td>
-                                <td> </td>
-                                <td> </td>
-                                <td> </td>
-                                <td> </td>
-                                <td> </td>
-                                <td> </td>
-                                <td> </td>
-                                <td> </td>
-                                <td> </td>
-                                <td> ✓ </td>
-                                <td> </td>
-                                <td> </td>
-                            </tr>
-                            {/*************************************************************************************************************/}
-                            <tr>
-                                {/*Fila de Tema 4.2 - Desarrollo e implementación de soluciones para IoT*/}
-                                <th style={{ color: "gray" }} scope="row">
-                                    <Link
-                                        data-bs-toggle="tooltip"
-                                        data-bs-placement="top"
-                                        title="Tema 4.2 - Desarrollo e implementación de soluciones para IoT"
-                                        to="/Unidad"
-                                        state={{ title: "Unidad 4 - Internet de las cosas", subtitle: "Tema 4.2 - Desarrollo e implementación de soluciones para IoT", text:"" }}
-                                    >Tema 4.2 - Desarrollo e implementación de soluciones para IoT</Link></th>
-                                <td> </td>
-                                <td> </td>
-                                <td> </td>
-                                <td> </td>
-                                <td> </td>
-                                <td> </td>
-                                <td> </td>
-                                <td> </td>
-                                <td> </td>
-                                <td> </td>
-                                <td> </td>
-                                <td> </td>
-                                <td> </td>
-                                <td> </td>
-                                <td> </td>
-                                <td> ✓ </td>
-                                <td> </td>
-                            </tr>
-                            {/*************************************************************************************************************/}
-                            <tr>
-                                {/*Fila de Tema 4.3 - Introducción, gestión y almacenamiento de información generada por IoT*/}
-                                <th style={{ color: "gray" }} scope="row">
-                                    <Link
-                                        data-bs-toggle="tooltip"
-                                        data-bs-placement="top"
-                                        title="Tema 4.3 - Introducción, gestión y almacenamiento de información generada por IoT"
-                                        to="/Unidad"
-                                        state={{ title: "Unidad 4 - Internet de las cosas", subtitle: "Tema 4.3 - Introducción, gestión y almacenamiento de información generada por IoT", text:"" }}
-                                    >Tema 4.3 - Introducción, gestión y almacenamiento de información generada por IoT</Link></th>
-                                <td> </td>
-                                <td> </td>
-                                <td> </td>
-                                <td> </td>
-                                <td> </td>
-                                <td> </td>
-                                <td> </td>
-                                <td> </td>
-                                <td> </td>
-                                <td> </td>
-                                <td> </td>
-                                <td> </td>
-                                <td> </td>
-                                <td> </td>
-                                <td> </td>
-                                <td> </td>
-                                <td> ✓ </td>
-                                
-                            </tr>
-                            {/*************************************************************************************************************/}
                         </tbody>
                 </table>
             </div>

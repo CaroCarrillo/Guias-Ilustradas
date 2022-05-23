@@ -7,7 +7,7 @@ function MateriaTable() {
     return (
         <div>
             <Navbar />
-            <SearchNav />
+            <SearchNav namePlaneacion={"Mis cursos"} />
             <div id='materia-table' className='container'>
                     {/* Table header */}
                     <div className='row header-table pt-2'>

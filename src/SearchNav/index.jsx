@@ -6,7 +6,7 @@ import { MdArrowRight } from "react-icons/md"; /*Ícono de flecha*/
 import { HiOutlineDocumentDuplicate } from "react-icons/hi";/*Ícono de datos profesionales*/
 
 
-const SearchNav = () => {
+const SearchNav = (props) => {
     return (
         <div>
             <nav className="navbar" style={{backgroundColor: "rgba(12, 52, 92, .7)", height: 100 }}>
@@ -15,7 +15,7 @@ const SearchNav = () => {
                         <a href="/Usuario" aria-labelledby='Home'className='px-5' ><h1><AiOutlineHome /></h1></a> &nbsp; &nbsp;  &nbsp;  &nbsp;  &nbsp;
                         <h1><RiFileList2Line/> Planeación</h1> 
                         &nbsp; &nbsp; <h1><MdArrowRight/></h1> &nbsp; &nbsp; 
-                        <h1><HiOutlineDocumentDuplicate /> Mis cursos</h1>
+                        <h1><HiOutlineDocumentDuplicate /> {props.namePlaneacion}</h1>
                     </div>
                     <div className='d-flex justify-content-end pe-5'>
                         <input className='search-materia-info rounded-pill px-5 border border-5' type="text" placeholder='Buscar Materia' style={{fontSize: "1.2em", color:"black"}}/>

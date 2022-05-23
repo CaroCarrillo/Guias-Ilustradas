@@ -8,7 +8,7 @@ const StudentProject = (props) => {
         <div 
             name="item" 
             className=" m-3 position-relative" 
-            id="mentorCard" 
+            id="studentCard" 
             style={{ "width": "18rem" }} >
                 <a 
                     data-bs-toggle="modal" 
