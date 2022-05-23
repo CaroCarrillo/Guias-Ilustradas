@@ -6,16 +6,17 @@ import { MdArrowRight } from "react-icons/md"; /*Ícono de flecha*/
 import { HiOutlineDocumentDuplicate } from "react-icons/hi";/*Ícono de datos profesionales*/
 
 
-const NavbarCaro = () => {
+const NavbarCaro = (props) => {
     return (
         <div>
             <nav className="navbar" style={{backgroundColor: "rgba(12, 52, 92, .7)", height: 100 }}>
                 <div className="container-fluid">
                     <div className='d-flex justify-content-start ps-5' id='navbarPlaneacion'>
-                        <a href="/Usuario" aria-labelledby='Home'className='px-5' ><h1><AiOutlineHome /></h1></a> &nbsp; &nbsp;  &nbsp;  &nbsp;  &nbsp;
+                        <a href="/Usuario" aria-labelledby='Home'className='px-5' ><h1><AiOutlineHome /></h1></a> 
+                            &nbsp; &nbsp;  &nbsp;  &nbsp;  &nbsp;
                         <h1><RiFileList2Line/> Planeación</h1> 
-                        &nbsp; &nbsp; <h1><MdArrowRight/></h1> &nbsp; &nbsp; 
-                        <h1><HiOutlineDocumentDuplicate /> Datos profesionales</h1>
+                            &nbsp; &nbsp; <h1><MdArrowRight/></h1> &nbsp; &nbsp; 
+                        <h1><HiOutlineDocumentDuplicate /> {props.namePlaneacion}</h1>
                     </div>                    
                 </div>
             </nav>

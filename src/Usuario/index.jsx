@@ -13,7 +13,7 @@ const Usuario = () => {
     return (
         <div>
             <Navbar />
-            <NavbarCaro/>
+            <NavbarCaro namePlaneacion={"Menú"}/>
             <div className='containerInformation'>
                 <form>
                 {/*<button1 onClick={back}  >←</button1>*/}

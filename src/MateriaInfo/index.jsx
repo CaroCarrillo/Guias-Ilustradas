@@ -7,7 +7,7 @@ function MateriaInfo() {
     return (
         <div>
             <Navbar />
-            <SearchNav />
+            <SearchNav namePlaneacion={"Materia"} />
             <div id='materia-info'>
                 <div className='container mx-auto'>
                     {/* Table header */}

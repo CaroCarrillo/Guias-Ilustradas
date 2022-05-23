@@ -1,10 +1,12 @@
 import React from 'react'
 import {StudentProject} from '../StudentProject';
+import { NavbarCronograma } from '../NavbarCronograma';
 
 function FinalProject() {
     const imageAbout = require.context('../assets/images', true);
     return (
         <div>
+            <NavbarCronograma/>
             <section id="valores" className="text-center">
                 <div className="container-xl">
                     <div className="row">
@@ -37,8 +39,7 @@ function FinalProject() {
                         </div>
                         <div className="col">
                             <div className="card h-100 color-border-card">
-                                <img className="card-img-top" src={imageAbout('./book-3.png')}
-                                    alt="Tiempo" />
+                                <img className="card-img-top" src={imageAbout('./book-3.png')} alt="Tiempo" />
                                 <div className="card-body">
                                     <h4 className="card-title">Fue entregado en tiempo y forma</h4>
                                 </div>
@@ -99,17 +100,22 @@ function FinalProject() {
                                                         className=" mx-auto"
                                                         style={{ width: "10rem" }}
                                                     >
-                                                        <StudentProject document={1} name={"Isay"} img={"https://img.freepik.com/foto-gratis/mira-captura-recortada-atractivo-joven-apuesto-emocionado-camiseta-azul-que-senala-dedos-arriba-despues-haber-mirado-sorprendido-expresion-alegre-feliz-cara-broadley-sonriendo_176420-10316.jpg?w=2000"} projectName={"Datos en la nube"} cardWidth={"18rem"} />
+                                                        <StudentProject document={1} name={"Carolina Carrillo"} img={"https://images.pexels.com/photos/5795034/pexels-photo-5795034.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"} projectName={"Desarrollo Fronted"} cardWidth={"18rem"} />
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div className="col-md-4">
+                                            
+                                        </div>
+                                    </div>
+                                    <div className="carousel-item">
+                                        <div className="row">
+                                        <div className="col-md-5">
                                                 <div className="">
                                                     <div
                                                         className=" mx-auto"
-                                                        style={{ width: "5rem" }}
+                                                        style={{ width: "10rem" }}
                                                     >
-                                                        <StudentProject document={2} name={"Carolina"} img={"https://images.pexels.com/photos/5795034/pexels-photo-5795034.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"} projectName={"Diseño Frontend"} cardWidth={"18rem"} />
+                                                        <StudentProject document={2} name={"Isay Torres"} img={"https://us.123rf.com/450wm/piksel/piksel1601/piksel160100002/50983937-pensar-hombre.jpg?ver=6"} projectName={"Desarrollo Backend"} cardWidth={"18rem"} />
                                                     </div>
                                                 </div>
                                             </div>
@@ -123,7 +129,7 @@ function FinalProject() {
                                                         className=" mx-auto"
                                                         style={{ width: "10rem" }}
                                                     >
-                                                        <StudentProject document={3} name={"Leonardo"} img={"https://images.pexels.com/photos/4607198/pexels-photo-4607198.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=5000"} projectName={"Desarrollo de Apis"} cardWidth={"18rem"} />
+                                                        <StudentProject document={3} name={"Leonardo Gutiérrez"} img={"https://images.pexels.com/photos/4607198/pexels-photo-4607198.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=5000"} projectName={"Documentación de Guías ilustradas"} cardWidth={"18rem"} />
                                                     </div>
                                                 </div>
                                             </div>
