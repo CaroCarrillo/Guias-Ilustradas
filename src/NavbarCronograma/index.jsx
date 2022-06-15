@@ -10,18 +10,18 @@ function NavbarCronograma() {
         <div>
             <Navbar />
             <div className=' container-fluid navbar-cronograma'>
-                <div className='row pt-3 fw-bold '>
+                <div className='row pt-3 '>
                     <div className='col nav-elements' >
-                        <a href="/Cursos">Cursos</a>
+                        <a href="/Cursos">Cursos de <strong>Carrera</strong></a>
                     </div>
                     <div className='col nav-elements'>
-                        <a href="/Cronograma">Cronograma</a>
+                        <a href="/Cronograma">Cronograma de <strong>Materia</strong></a>
                     </div>
                     <div className='col nav-elements'>
-                        <a href="/FinalProject">Proyecto final</a>
+                        <a href="/FinalProject">Proyecto <strong>Final</strong></a>
                     </div>
                     <div className='col nav-elements'>
-                        <a href="/Referencias">Referencias</a>
+                        <a href="/Referencias">Referencias de <strong>Materia</strong></a>
                     </div>
 
                 </div>

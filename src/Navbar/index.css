@@ -7,10 +7,7 @@
     color: white;
     list-style: none;
 }
-.nav-bar_list li img{
-    height: 2.5rem;
-    margin-top: 1em;
-}
+
 .nav-bar_list li button{
     background-color: #0C345C;;
     color: white;
@@ -18,8 +15,9 @@
     
 }
 
-#cerrarSesion a:hover{
+#dropdownPerfilCerrarSesion a:hover, #brandP:hover{
     text-decoration: none;
+    color: white;
 }
 
 .nav-bar_list .btn:focus{

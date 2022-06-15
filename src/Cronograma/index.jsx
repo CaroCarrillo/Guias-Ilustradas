@@ -140,7 +140,7 @@ function Cronograma() {
         var rows = [];
         for (var i = 1; i < 18; i++) {
             if (i === semanas) {
-                rows.push(<td key={i}> ✓ </td>);
+                rows.push(<td key={i}> <strong> ✓ </strong></td>);
             }else {
                 rows.push(<td key={i}> </td>);
             }
@@ -153,9 +153,13 @@ function Cronograma() {
         let row = []
         for (let indexUnidad = 0; indexUnidad < informationJson.length;indexUnidad ++){
             row.push(
-            <tr className=''>
+            <tr >
                 {/*Fila de Unidad*/}
-                <th style={{ color: "#0C345C" }} className='fs-5' scope="row">{informationJson[indexUnidad].titleUnidad}</th>
+                <th 
+                style={{ color: "#0C345C" }} /*Fila de Unidad*/ 
+                scope="row"
+                
+                >{informationJson[indexUnidad].titleUnidad}</th>
             </tr>,
             linkedData(informationJson, indexUnidad)
             )
@@ -168,8 +172,8 @@ function Cronograma() {
         let row = []
         for (let indexSubtema = 0; indexSubtema < informationJson[indexUnidad].Unidad.length; indexSubtema++){
             row.push(
-            <tr>
-                <th>
+            <tr id="collapseOne" class="accordion-collapse">
+                <th >
                     <Link
                         data-bs-toggle="tooltip"
                         data-bs-placement="top"
@@ -196,12 +200,27 @@ function Cronograma() {
         <div >
             <NavbarCronograma/>
             <div className='d-flex justify-content-center align-items-center my-4' id='Cronograma' >
-            <div className='container border border-2 rounded-3 p-2'  >
+                <h4>Cronograma de <strong>Materia</strong></h4>
+            </div>
+            <div className='d-flex justify-content-center align-items-center' id='Cronograma' >
+            <div className='container'>
                 <table class="table table-hover">
                     <thead>
-                        <tr>
+                        <tr style={{backgroundColor: "rgba(12, 52, 92, .1)"}}>
                             {/*Fila de semana 1 - 17 */}
-                            <th scope="col" style={{ color: "#0C345C" }} className='fs-4' >Semanas</th>
+                            <th scope="col" className='fs-5 semanasLeftRow'>Unidad / Semanas <br/>
+                                <span 
+                                className='fs-6 text-secondary dropdown-toggle'
+                                /**** Acordion ****/  
+                                    type="button" 
+                                    data-bs-toggle="collapse" 
+                                    data-bs-target="#collapseOne" 
+                                    aria-expanded="true" 
+                                    aria-controls="collapseOne"
+                                /******************/>
+                                &nbsp; Cronograma simplificado 
+                                </span>
+                            </th>
                             <th scope="col">1</th>
                             <th scope="col">2</th>
                             <th scope="col">3</th>
@@ -218,7 +237,7 @@ function Cronograma() {
                             <th scope="col">14</th>
                             <th scope="col">15</th>
                             <th scope="col">16</th>
-                            <th scope="col">17</th>
+                            <th scope="col" className='semanasRigtRow'>17</th>
                         </tr>
                     </thead>
                         <tbody >
