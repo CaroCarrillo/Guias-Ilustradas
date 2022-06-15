@@ -1,13 +1,14 @@
 import React from 'react'
 import './index.css'
 import { Navbar } from '../Navbar'
-import {SearchNav} from '../SearchNav'
+//import {SearchNav} from '../SearchNav'
+import { NavbarCaro } from '../NavbarCaro'
 
 function MateriaTable() {
     return (
         <div>
             <Navbar />
-            <SearchNav namePlaneacion={"Mis cursos"} />
+            <NavbarCaro namePlaneacion={"Mis cursos"} findMateria={true} />
             <div id='materia-table' className='container'>
                     {/* Table header */}
                     <div className='row header-table pt-2'>

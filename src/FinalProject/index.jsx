@@ -23,7 +23,7 @@ function FinalProject() {
                     <div className="row row-cols-1 row-cols-md-3 ">
                         <div className="col">
                             <div className="card h-100 color-border-card">
-                                <img className="card-img-top" src={imageAbout('./book.png')} alt="Creativo" />
+                                <img className="card-img-top" src={imageAbout('./book-2.png')} alt="Creativo" />
                                 <div className="card-body">
                                     <h4 className="card-title">El proyecto es original y creativo</h4>
                                 </div>
@@ -31,7 +31,7 @@ function FinalProject() {
                         </div>
                         <div className="col">
                             <div className="card h-100 color-border-card">
-                                <img className="card-img-top" src={imageAbout('./book-2.png')} alt="Objetivo" />
+                                <img className="card-img-top" src={imageAbout('./book.png')} alt="Objetivo" />
                                 <div className="card-body">
                                     <h4 className="card-title">Cumple con el objetivo de la materia</h4>
                                 </div>

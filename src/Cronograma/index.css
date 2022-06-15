@@ -6,3 +6,11 @@
 .table>:not(caption)>*>*{
     border-bottom-width: 0px;
 }
+
+.semanasLeftRow {
+    border-top-left-radius: 15px;
+}
+
+.semanasRigtRow{
+    border-top-right-radius: 15px;
+}

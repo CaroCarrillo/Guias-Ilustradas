@@ -1,13 +1,13 @@
 import React from 'react'
 import { Navbar } from '../Navbar'
-import {SearchNav} from '../SearchNav'
+import { NavbarCaro } from '../NavbarCaro'
 
 import './index.css'
 function MateriaInfo() {
     return (
         <div>
             <Navbar />
-            <SearchNav namePlaneacion={"Materia"} />
+            <NavbarCaro namePlaneacion={"Materia"} />
             <div id='materia-info'>
                 <div className='container mx-auto'>
                     {/* Table header */}
