@@ -1,7 +1,7 @@
 import React from 'react';
 import './index.css'
 
-const index = () => {
+function ErrorPage404() {
     return (
         <div>
             <div class="mainbox">
@@ -15,4 +15,4 @@ const index = () => {
     );
 };
 
-export default index;
+export {ErrorPage404};

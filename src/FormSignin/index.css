@@ -40,25 +40,6 @@
 }
 
 
-/****************************************/
-/*Este link(a) es meramente demostrativo, hasta que el back-end esté listo, por lo que se comenta el botón que sí manda el json(o datos en un objeto) para procesar en la base de datos*/
-.containerSignin a {
-    width: 84%;
-    height: 45px;
-    text-align: center;
-    margin-left: 35px;
-    margin-top: 20px;
-    background-color: #0C345C; 
-    color: white;
-    border-radius: 5px;
-    font-size: 18px;
-    padding: 8px 0px;
-}
-.containerSignin a:hover {
-    text-decoration: none;
-}
-
-/****************************************/
 
 
 .containerSignin .buttonForm{

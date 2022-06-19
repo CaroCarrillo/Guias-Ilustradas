@@ -1,21 +1,21 @@
-import {useState} from 'react'
+
 import FormInput from '../FormInput'
 //import "./login2.css"
 import cuceiBlack from '../assets/images/cuceiBlack.png'
 import udg from '../assets/images/udg.png'
 import './index.css'
+import { useContext } from 'react'
+import { AppContext } from '../Context';
+import { Link, useNavigate } from 'react-router-dom'
 
 const FormSignin = () => {
 
-const [values,setValues] = useState({
-code:"",
-name:"",
-lastname:"",
-username:"", 
-email:"",
-password:"",
-confirmPassword:"",
-});
+    const { registerValues,
+        userStatus,
+        handleRegisterSubmit,
+        OnChangeRegisterValues} = useContext(AppContext)
+    const navigate = useNavigate()
+
 
 const inputs =[
     {
@@ -80,23 +80,19 @@ const inputs =[
     placeholder:"Confirmar contraseña",
     errorMessage:"La contraseña no coincide",
     label:"Confirmar contraseña",
-    pattern: values.password,
+    pattern: registerValues.password,
     required: true,
     }
 ]
 
-const handleSubmit = (e) => {
-    e.preventDefault();
-    console.log(values);
-};
 
-const onChange = (e) => {
-    setValues({...values,[e.target.name]: e.target.value });
-};
+
+
 
     
     return (
         <div className='containerSignin'>
+            {console.log(userStatus)}
             <div className='headerForm'>
                 <img src={udg} alt="" />
                 <img src={cuceiBlack} alt="" />
@@ -104,13 +100,29 @@ const onChange = (e) => {
             </div> 
             <form>
                 {inputs.map((input) => (
-                    <FormInput key={input.id} {...input} value={values[input.name]} onChange={onChange}/>
+                    <FormInput key={input.id} {...input} value={registerValues[input.name]} onChange={OnChangeRegisterValues}/>
                 ))}
             </form>
             <div className='buttonForm'>
-                {/*<button onClick={handleSubmit} >Enviar</button>*//*Se utilizará una vez que el back-end esté listo para conectarse al front-end*/}
-                <a href="/Ingresar" data-toggle="Ingresar" type='button'>Enviar</a>
+                <button onClick={handleRegisterSubmit} >Enviar</button>
+                {
+                userStatus.user === "occuped"? 
+                        (<div>
+                            <div style={{ color: "red" }}>
+                                El correo electronico o código ya se encuentran en uso
+                            </div>
+                            <div>
+                                <a href="/Ingresar" style={{ color: "blue" }}> Regresar a inicio</a>
+                            </div>
+                        </div>
+                    
+                ) 
+                : (userStatus.user === "created_success"? navigate("/Ingresar")
+                : (userStatus.user === "pendding"? "": navigate("./error")))}
+                
             </div>
+            
+            
         </div>
     );
 };
